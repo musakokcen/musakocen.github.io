@@ -1,49 +1,48 @@
+/* assets/headerDesign.css */
+
 body {
     margin: 0;
     font-family: 'Courier New', monospace;
 }
 
-.header {
+.headerDesign {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #111111;
+    width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    padding: 10px; /* Optional: for some padding inside the header */
 }
 
-.header-left, .header-right {
+.headerDesign-left {
     display: flex;
+    flex: 1;
 }
 
-.header a {
+.headerDesign-right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.headerDesign a {
     text-decoration: none;
-    color: #eeeeee; /* Change to your desired color */
+    color: #eeeeee;
     border-radius: 4px;
-}
-
-.header a:hover {
-    background: #111111;
-    color: #eeeeee; /* Change to your desired color */
-    text-decoration: none;
-  }
-
-  .header-right a {
     margin-right: 10px; /* Adjust as needed */
 }
 
+.headerDesign a:hover {
+    background: #111111;
+    color: #eeeeee;
+    text-decoration: none;
+}
+
 @media (max-width: 720px) {
-    .header {
+    .headerDesign {
         flex-direction: column;
         margin-bottom: 10px;
-    }
-
-    .header-left, .header-right {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header a {
-        margin: 5px 0;
     }
 }
