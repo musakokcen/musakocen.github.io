@@ -1,0 +1,129 @@
+/* main.css */
+
+/* Change the font and color of the title */
+h1, .site-title {
+  font-family: 'Courier New', monospace;
+  /* font-family: sans-serif; Change 'Arial' to your desired font */
+  font-size: 20px;
+  color: #eeeeee; /* Change to your desired color */
+  float: left;
+}
+
+h2 {
+  font-family: 'Courier New', monospace;
+  /* font-family: sans-serif; Change 'Arial' to your desired font */
+  font-size: 18px;
+  color: #eeeeee; /* Change to your desired color */
+  float: left;
+}
+
+.page-title {
+  /* margin-right: 20px; Adjust spacing between site title and page titles */
+  font-size: 16px;
+  font-family: 'Courier New', monospace;
+  /* font-family: sans-serif; Use sans-serif font */
+  float: right;
+  margin-left: 20px; /* Adjust spacing between site title and page titles */
+}
+
+/* Change the color of the links */
+a {
+  color: #eeeeee; /* Change to your desired color */
+  text-decoration: none;
+}
+
+/* Optional: Change the color of links when hovered */
+a:hover {
+  color: #eeeeee; /* Change to your desired color */
+  text-decoration: none;
+}
+
+
+body {
+  font-family: 'Courier New', monospace;
+  /* font-family: Arial, sans-serif; */
+  margin: 0;
+  padding: 0;
+  padding-top: 96px;
+  font-size: 16px;
+  background: #111111;
+  color: #eeeeee;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background: #111111;
+  color: #eeeeee;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* .about {
+  background-color: #f4f4f4;
+  padding: 2rem 0;
+} */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  /* padding: 0 1rem;  Optional: add padding to prevent text touching the edges on small screens */
+}
+
+.about h2 {
+  font-size: 2rem;
+}
+
+.about p {
+  margin: 1rem 0;
+}
+
+/* Style the post list */
+.post-list {
+margin: 20px 0;
+padding: 0;
+list-style-type: none;
+}
+
+.post-list h2 {
+  font-family: 'Courier New', monospace;
+/* font-family: 'Helvetica', sans-serif; */
+color: #333333;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.post-list ul {
+padding: 0;
+list-style: none;
+}
+
+.post-list li {
+margin: 5px 0;
+}
+
+.post-list a {
+color: #1e90ff;
+text-decoration: none;
+}
+
+.post-list a:hover {
+text-decoration: underline;
+color: #ff4500;
+}
+

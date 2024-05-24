@@ -1,0 +1,25 @@
+<!-- _includes/footer.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{{ '/assets/header.css' | relative_url }}"> 
+</head>
+<body>
+
+<div class="header">
+    {% if site.linkedin_username %}
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" target="_blank"><span class="sr-only">LinkedIn</span></a>
+{% endif %}
+{% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank"><span class="sr-only">GitHub</span></a>
+{% endif %}
+{% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter" target="_blank"><span class="sr-only">Twitter</span></a>
+{% endif %}
+&copy; {{ site.time | date: "%Y" }} {{ site.title }}
+</div>
+
+</body>
+</html>

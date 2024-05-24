@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{ page.title }} - {{ site.title }}</title>
+<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+
+{% include header.html %}
+
+<main>
+
+<div class="container">
+  {{ page.title }}
+</div>
+
+<div class="container">
+{{ page.subtitle }}
+</div>
+
+<div class="container">
+{{ content | markdownify }}
+</div>
+
+<br>
+<div class="container">
+<a href="javascript:history.back()"> ← </a>
+</div>
+
+</main>
+
+{% include footer.html %}
+
+</body>
+</html>

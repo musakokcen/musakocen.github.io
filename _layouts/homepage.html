@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{ page.title }} - {{ site.title }}</title>
+<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+
+{% include header.html %}
+
+<main>
+<div class="container">
+  {% for post in site.posts %}
+    <div class="post-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </div>
+  {% endfor %}
+</div>
+</main>
+
+{% include footer.html %}
+
+</body>
+</html>

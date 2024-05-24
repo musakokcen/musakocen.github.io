@@ -1,0 +1,14 @@
+<!-- _includes/project-card.html -->
+<div style="display: flex; align-items: flex-start; padding-bottom: 10px; margin-bottom: 10px;">
+    <p style="margin: 0; align-self: flex-start; flex: 1; word-wrap: break-word;">
+        <b>{{ include.title }}</b><br>
+        <span style="display: flex; align-items: flex-start;">
+            <img src="{{ include.img_src }}" alt="Thumbnail" style="width: 50px; height: 50px; margin-right: 10px; border-radius: 25px;">
+            <span style="display: flex; flex-direction: column;">
+                {{ include.description }}
+                <br>
+                <a href="{{ include.link }}"><u>{{ include.link_title }}</u></a>
+            </span>
+        </span>
+    </p>
+</div>
