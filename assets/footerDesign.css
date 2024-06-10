@@ -44,9 +44,14 @@ main {
 }
 
 @media (max-width: 720px) {
+    .footer {
+        width: 90%;
+    }
+
     .footer-content {
         flex-direction: column;
         margin-bottom: 10px;
+        max-width: 90%;
     }
 
     .footer a {

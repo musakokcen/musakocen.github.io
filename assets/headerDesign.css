@@ -44,5 +44,7 @@ body {
     .headerDesign {
         flex-direction: column;
         margin-bottom: 10px;
+        width: 90%;
+        max-width: 90%;
     }
 }
