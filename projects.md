@@ -13,6 +13,13 @@ subtitle: some key projects I've contributed to in recent years
 </div>
 
 <div style="display: flex; padding-bottom: 30px;">
+    <img src="/assets/img/mathhero.webp" alt="Thumbnail" style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px;">
+    <p style="margin: 0; align-self: flex-start;">
+    <b>Math AI: Problem Solver Helper</b>
+    A step-by-step math solver app from simple Arithmetic to advanced Algebra & Calculus and more. You can enter the question either by scanning or latex keyboard, Math AI recognizes the problem and helps you to solve it with a detailed step-by-step explanation. <br><a href="https://apps.apple.com/gb/app/math-ai-problem-solver-helper/id1565102390" target="_blank"><u>Open in Appstore</u></a></p>
+</div>
+
+<div style="display: flex; padding-bottom: 30px;">
     <img src="/assets/img/goodRec.webp" alt="Thumbnail" style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px;">
     <p style="margin: 0; align-self: flex-start;">
     <b>GoodRec (ex Just Play)</b> You can play sports games near you no matter your skill level or gender. Filter your city and sport, sign up for a game, and play. Whether you want to play football, volleyball, or basketball, this app gets you covered. With games in over 50 cities spread across the US, Europe, and Canada, it has never been easier to play the sport you love! <br><a href="https://apps.apple.com/gb/app/goodrec-ex-just-play/id1510554246 " target="_blank"><u>Open in Appstore</u></a></p>
