@@ -62,5 +62,12 @@ subtitle: some key projects I've contributed to in recent years
     This is the world's first smartphone-based auto-tracking and recording system that can automatically shoot team sports videos for soccer games or basketball games. It has features like auto tracking, live streaming, and video cloud storage. <br><a href="https://apps.apple.com/tm/app/xbotgo/id1581355712" target="_blank"><u>Open in Appstore</u></a></p>
 </div>
 
+<div style="display: flex; padding-bottom: 30px;">
+    <img src="/assets/img/LVS.webp" alt="Thumbnail" style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px;">
+    <p style="margin: 0; align-self: flex-start;">
+    <b>LVStudio</b>
+    Live View Studio (LVStudio) is an advanced suite for visual learning of physical skills for playing golf. LVStudio enhances DSM visual feedback with guided mirroring to simplify and accelerate learning. <br><a href="https://apps.apple.com/us/app/lvstudio/id1497816078" target="_blank"><u>Open in Appstore</u></a></p>
+</div>
+
 <br>
 <br>
