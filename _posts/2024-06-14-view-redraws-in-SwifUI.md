@@ -12,6 +12,4 @@ I have received different answers and explanations to this question. SwiftUI's e
 
 We can prove this theory in several ways, one using the [**_princhanges()**](https://developer.apple.com/documentation/swift-playgrounds/console-print-debugging#Understand-when-and-why-your-views-change) approach, the other using the Instruments tool. Assigning random background colors for testing is also an option, but does not sound like a good practice to me unless you need specific things. Using instruments, you just need to select SwiftUI profiler and watch the count number in the details section for the view body after doing something that changes property values. 
 
-As a result, it is not always easy to figure out how things work under the hood, and you have to use different approaches to make an inference with a proof. As these two approaches show, the view update events are collected and applied all at once whenever possible.
-
-As a result, it is not always easy to figure out how things work under the hood, and you have to use different approaches to make an inference with a proof. As the two recommended approaches show, the view update events are collected and applied all at once whenever possible.
+In short, it is not always easy to figure out how things work under the hood, and you have to use different approaches to make an inference with a proof. As the two recommended approaches show, the view update events are collected and applied all at once whenever possible.
