@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Projects"
-subtitle: some key projects I've contributed to in recent years
+subtitle: Some key projects I've contributed to in recent years
 ---
 <div class="container">
 
@@ -10,8 +10,10 @@ subtitle: some key projects I've contributed to in recent years
         <img src="/assets/img/planty.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
     </div>
     <p style="margin: 0; align-self: flex-start;">
-    <b>Planty: Plant Identifier, Care</b>
-    Planty is a plant care guide & companion app that helps you identify plants around you, find the info, and set up care reminders for any plant. *** Featured by Apple in Appstore ***<br><a href="https://apps.apple.com/gb/app/planty-plant-identifier-care/id1603599822" target="_blank"><u>Open in Appstore</u></a></p>
+    <b>Planty: Plant Identifier, Care</b><br>
+    Planty is a plant care guide and companion app that helps you identify plants around you, find information, and set up care reminders for any plant. <i>*** Featured by Apple in the App Store ***</i><br>
+    <a href="https://apps.apple.com/gb/app/planty-plant-identifier-care/id1603599822" target="_blank"><u>Open in App Store</u></a>
+    </p>
 </div>
 
 <div style="display: flex; padding-bottom: 30px;">
@@ -19,8 +21,10 @@ subtitle: some key projects I've contributed to in recent years
         <img src="/assets/img/mathhero.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
     </div>
     <p style="margin: 0; align-self: flex-start;">
-    <b>Math AI: Problem Solver Helper</b>
-    A step-by-step math solver app from simple Arithmetic to advanced Algebra & Calculus and more. You can enter the question either by scanning or latex keyboard, Math AI recognizes the problem and helps you to solve it with a detailed step-by-step explanation. <br><a href="https://apps.apple.com/gb/app/math-ai-problem-solver-helper/id1565102390" target="_blank"><u>Open in Appstore</u></a></p>
+    <b>Math AI: Problem Solver Helper</b><br>
+    A step-by-step math solver app for everything from simple arithmetic to advanced algebra and calculus. You can enter questions by scanning or using a LaTeX keyboard. Math AI recognizes the problem and provides a detailed step-by-step explanation.<br>
+    <a href="https://apps.apple.com/gb/app/math-ai-problem-solver-helper/id1565102390" target="_blank"><u>Open in App Store</u></a>
+    </p>
 </div>
 
 <div style="display: flex; padding-bottom: 30px;">
@@ -28,7 +32,10 @@ subtitle: some key projects I've contributed to in recent years
         <img src="/assets/img/goodRec.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
     </div>
     <p style="margin: 0; align-self: flex-start;">
-    <b>GoodRec (ex Just Play)</b> You can play sports games near you no matter your skill level or gender. Filter your city and sport, sign up for a game, and play. Whether you want to play football, volleyball, or basketball, this app gets you covered. With games in over 50 cities spread across the US, Europe, and Canada, it has never been easier to play the sport you love! <br><a href="https://apps.apple.com/gb/app/goodrec-ex-just-play/id1510554246 " target="_blank"><u>Open in Appstore</u></a></p>
+    <b>GoodRec (ex Just Play)</b><br>
+    Play sports games near you, regardless of your skill level or gender. Filter by city and sport, sign up for a game, and play. Whether it's football, volleyball, or basketball, this app has you covered. With games in over 50 cities across the US, Europe, and Canada, it's never been easier to play the sport you love!<br>
+    <a href="https://apps.apple.com/gb/app/goodrec-ex-just-play/id1510554246" target="_blank"><u>Open in App Store</u></a>
+    </p>
 </div>
 
 <div style="display: flex; padding-bottom: 30px;">
@@ -36,8 +43,10 @@ subtitle: some key projects I've contributed to in recent years
         <img src="/assets/img/easyScanner.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
     </div>
     <p style="margin: 0; align-self: flex-start;">
-    <b>Easy Scanner PDF Document Scan</b>
-    Scan documents and save them as multi-page, high-quality PDF, JPEG, or TXT files. The documents can be emailed, printed, faxed, exported to camera roll or uploaded to cloud services. The app detects borders of the page, corrects perspective and distortion, eliminates shadows and sets a perfect contrast for text - black on white. <br><a href="https://apps.apple.com/gb/app/easy-scanner-pdf-document-scan/id1180773759" target="_blank"><u>Open in Appstore</u></a></p>
+    <b>Easy Scanner PDF Document Scan</b><br>
+    Scan documents and save them as multi-page, high-quality PDF, JPEG, or TXT files. Documents can be emailed, printed, faxed, exported to the camera roll, or uploaded to cloud services. The app detects page borders, corrects perspective and distortion, eliminates shadows, and optimizes contrast for text.<br>
+    <a href="https://apps.apple.com/gb/app/easy-scanner-pdf-document-scan/id1180773759" target="_blank"><u>Open in App Store</u></a>
+    </p>
 </div>
 
 <div style="display: flex; padding-bottom: 30px;">
@@ -45,8 +54,10 @@ subtitle: some key projects I've contributed to in recent years
         <img src="/assets/img/easyFax.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
     </div>
     <p style="margin: 0; align-self: flex-start;">
-    <b>FAX from iPhone Free: Send Now</b>
-    Turn your iPhone or iPad into a fax machine. Scan any documents or add images from your camera roll or cloud services and fax them anywhere. It also uses Easy Scanner's features. <br><a href="https://apps.apple.com/gb/app/fax-from-iphone-free-send-now/id1179154292" target="_blank"><u>Open in Appstore</u></a></p>
+    <b>FAX from iPhone Free: Send Now</b><br>
+    Turn your iPhone or iPad into a fax machine. Scan documents or add images from your camera roll or cloud services and fax them anywhere. This app also includes features from Easy Scanner.<br>
+    <a href="https://apps.apple.com/gb/app/fax-from-iphone-free-send-now/id1179154292" target="_blank"><u>Open in App Store</u></a>
+    </p>
 </div>
 
 <div style="display: flex; padding-bottom: 30px;">
@@ -54,8 +65,10 @@ subtitle: some key projects I've contributed to in recent years
         <img src="/assets/img/callRecorder.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
     </div>
     <p style="margin: 0; align-self: flex-start;">
-    <b>ACR Call Recorder for iPhone</b>
-    It is an auto phone call recorder app to help you record outgoing & incoming calls with a clear recording quality and save them. The recording is immediately available. You can re-play, delete, save to cloud or share via email, iMessage, and social networks. <br><a href="https://apps.apple.com/gb/app/acr-call-recorder-for-iphone/id1377904267" target="_blank"><u>Open in Appstore</u></a></p>
+    <b>ACR Call Recorder for iPhone</b><br>
+    An automatic phone call recorder app that helps you record outgoing and incoming calls with clear quality. Recordings are immediately available for replay, deletion, cloud saving, or sharing via email, iMessage, and social networks.<br>
+    <a href="https://apps.apple.com/gb/app/acr-call-recorder-for-iphone/id1377904267" target="_blank"><u>Open in App Store</u></a>
+    </p>
 </div>
 
 <div style="display: flex; padding-bottom: 30px;">
@@ -63,8 +76,8 @@ subtitle: some key projects I've contributed to in recent years
         <img src="/assets/img/ws.svg" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
     </div>
     <p style="margin: 0; align-self: flex-start;">
-    <b>WannaShoot</b>
-    It is a photographer app to record videos and photos of models remotely. The project lasted for about a year during Covid restrictions but was not sustained by the investors thereafter.
+    <b>WannaShoot</b><br>
+    A photographer app to record videos and photos of models remotely. The project lasted for about a year during COVID restrictions but was not sustained by the investors thereafter.
     </p>
 </div>
 
@@ -73,8 +86,10 @@ subtitle: some key projects I've contributed to in recent years
         <img src="/assets/img/xbotgo.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
     </div>
     <p style="margin: 0; align-self: flex-start;">
-    <b>Blink Focus Xbot Goe</b>
-    This is the world's first smartphone-based auto-tracking and recording system that can automatically shoot team sports videos for soccer games or basketball games. It has features like auto tracking, live streaming, and video cloud storage. <br><a href="https://apps.apple.com/tm/app/xbotgo/id1581355712" target="_blank"><u>Open in Appstore</u></a></p>
+    <b>Blink Focus Xbot Goe</b><br>
+    The world's first smartphone-based auto-tracking and recording system for team sports videos, such as soccer or basketball. Features include auto-tracking, live streaming, and video cloud storage.<br>
+    <a href="https://apps.apple.com/tm/app/xbotgo/id1581355712" target="_blank"><u>Open in App Store</u></a>
+    </p>
 </div>
 
 <div style="display: flex; padding-bottom: 30px;">
@@ -82,8 +97,10 @@ subtitle: some key projects I've contributed to in recent years
         <img src="/assets/img/LVS.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
     </div>
     <p style="margin: 0; align-self: flex-start;">
-    <b>LVStudio</b>
-    Live View Studio (LVStudio) is an advanced suite for visual learning of physical skills for playing golf. LVStudio enhances DSM visual feedback with guided mirroring to simplify and accelerate learning. <br><a href="https://apps.apple.com/us/app/lvstudio/id1497816078" target="_blank"><u>Open in Appstore</u></a></p>
+    <b>LVStudio</b><br>
+    Live View Studio (LVStudio) is an advanced suite for visual learning of physical skills, such as playing golf. LVStudio enhances DSM visual feedback with guided mirroring to simplify and accelerate learning.<br>
+    <a href="https://apps.apple.com/us/app/lvstudio/id1497816078" target="_blank"><u>Open in App Store</u></a>
+    </p>
 </div>
 
 <br>
