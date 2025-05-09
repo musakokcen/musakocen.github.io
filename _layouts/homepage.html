@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>{{ page.title }} - {{ site.title }}</title>
-<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <meta charset="UTF-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 </head>
+
 <body>
-{% include google-analytics.html %}
+  {% include google-analytics.html %}
 
-{% include header.html %}
+  {% include header.html %}
 
-<main>
-<div class="container">
-  {% for post in site.posts %}
-    <div class="post-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  <main>
+    <div class="container">
+      {% for post in site.posts %}
+      <div class="post-title">
+        <a href="{{ post.url | relative_url }}"
+          style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+          <span class="post-date">{{ post.date | date: "%Y, %B %d" }}</span>
+          <span class="post-title-text">{{ post.title }}</span>
+        </a>
+      </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
-</main>
+  </main>
 
-{% include footer.html %}
+  {% include footer.html %}
 
 </body>
+
 </html>
