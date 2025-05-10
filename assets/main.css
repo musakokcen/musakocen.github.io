@@ -135,6 +135,8 @@ footer {
 
 .post-title {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .post-title a {
@@ -148,6 +150,7 @@ footer {
   display: inline-block;
   width: 150px; /* Fixed width for date to ensure alignment */
   font-size: 0.9em;
+   margin-right: 10px;
   color: #a1a1a1;
   text-align: left; /* Align text to the left within the fixed width */
 }
