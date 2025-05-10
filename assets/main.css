@@ -1,11 +1,13 @@
 /* main.css */
 
 /* Change the font and color of the title */
-h1, .site-title {
+h1,
+.site-title {
   font-family: 'Courier New', monospace;
   /* font-family: sans-serif; Change 'Arial' to your desired font */
   font-size: 20px;
-  color: #eeeeee; /* Change to your desired color */
+  color: #a1a1a1;
+  /* Change to your desired color */
   float: left;
 }
 
@@ -13,7 +15,8 @@ h2 {
   font-family: 'Courier New', monospace;
   /* font-family: sans-serif; Change 'Arial' to your desired font */
   font-size: 18px;
-  color: #eeeeee; /* Change to your desired color */
+  color: #a1a1a1;
+  /* Change to your desired color */
   float: left;
 }
 
@@ -23,18 +26,21 @@ h2 {
   font-family: 'Courier New', monospace;
   /* font-family: sans-serif; Use sans-serif font */
   float: right;
-  margin-left: 20px; /* Adjust spacing between site title and page titles */
+  margin-left: 20px;
+  /* Adjust spacing between site title and page titles */
 }
 
 /* Change the color of the links */
 a {
-  color: #eeeeee; /* Change to your desired color */
+  color: #a1a1a1;
+  /* Change to your desired color */
   text-decoration: none;
 }
 
 /* Optional: Change the color of links when hovered */
 a:hover {
-  color: #eeeeee; /* Change to your desired color */
+  color: #a1a1a1;
+  /* Change to your desired color */
   text-decoration: none;
 }
 
@@ -47,7 +53,7 @@ body {
   padding-top: 96px;
   font-size: 16px;
   background: #111111;
-  color: #eeeeee;
+  color: #a1a1a1;
 }
 
 nav ul {
@@ -66,7 +72,7 @@ main {
 
 footer {
   background: #111111;
-  color: #eeeeee;
+  color: #a1a1a1;
   text-align: center;
   padding: 1rem;
   position: fixed;
@@ -95,35 +101,57 @@ footer {
 
 /* Style the post list */
 .post-list {
-margin: 20px 0;
-padding: 0;
-list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .post-list h2 {
   font-family: 'Courier New', monospace;
-/* font-family: 'Helvetica', sans-serif; */
-color: #333333;
-text-align: center;
-margin-bottom: 10px;
+  /* font-family: 'Helvetica', sans-serif; */
+  color: #333333;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .post-list ul {
-padding: 0;
-list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 .post-list li {
-margin: 5px 0;
+  margin: 5px 0;
 }
 
 .post-list a {
-color: #1e90ff;
-text-decoration: none;
+  color: #1e90ff;
+  text-decoration: none;
 }
 
 .post-list a:hover {
-text-decoration: underline;
-color: #ff4500;
+  text-decoration: underline;
+  color: #ff4500;
 }
 
+.post-title {
+  margin-bottom: 10px;
+}
+
+.post-title a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-date {
+  display: inline-block;
+  width: 150px; /* Fixed width for date to ensure alignment */
+  font-size: 0.9em;
+  color: #a1a1a1;
+  text-align: left; /* Align text to the left within the fixed width */
+}
+
+.post-title-text {
+  flex: 1; /* Allow the title to take up the remaining space */
+}

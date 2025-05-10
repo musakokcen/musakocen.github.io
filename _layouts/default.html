@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>{{ page.title }} - {{ site.title }}</title>
-<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <meta charset="UTF-8">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='yellow'/></svg>"
+    type="image/svg+xml">
 </head>
+
 <body>
-{% include google-analytics.html %}
-{% include header.html %}
+  {% include google-analytics.html %}
+  {% include header.html %}
 
-<main>
-  {{ content }}
-</main>
+  <main>
+    {{ content }}
+  </main>
 
-{% include footer.html %}
+  {% include footer.html %}
 
 </body>
+
 </html>
