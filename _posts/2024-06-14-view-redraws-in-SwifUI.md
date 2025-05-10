@@ -1,7 +1,6 @@
 ---
 layout: blogpost
 title: Property Updates and View Redraws in SwifUI
-date: 2024-06-12
 subtitle: ""
 ---
 
