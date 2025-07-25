@@ -11,12 +11,12 @@ body {
 }
 
 a {
-    color: #c1c1c1;
+    color: #e67e22;
     text-decoration: none;
 }
 
 a:hover {
-    color: #c1c1c1;
+    color: #e67e22;
     text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ h2 {
 
 /* Optional: Change the color of links when hovered */
 a:hover {
-  color: #c1c1c1;
+  color: #e67e22;
   /* Change to your desired color */
   text-decoration: none;
 }
