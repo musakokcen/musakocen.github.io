@@ -1,23 +1,13 @@
 <!-- _includes/header.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="{{ '/assets/headerDesign.css' | relative_url }}"> 
-</head>
-<body>
 
-    <div class="headerDesign">
-        <div class="headerDesign-left">
-            <a href="{{ '/' | relative_url }}">{{ site.title }}
-        </div>
-        <div class="headerDesign-right">
-            <a href="{{ '/' | relative_url }}">Posts</a>
-            <a href="{{ '/aboutMe' | relative_url }}">About</a>
-            <a href="{{ '/projects' | relative_url }}">Projects</a>
-        </div>
+<div class="headerDesign">
+    <div class="headerDesign-left">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </div>
-
-</body>
-</html>
+    <div class="headerDesign-right">
+        <a href="{{ '/' | relative_url }}">Posts</a>
+        <a href="{{ '/aboutMe' | relative_url }}">About</a>
+        <a href="{{ '/projects' | relative_url }}">Projects</a>
+    </div>
+</div>

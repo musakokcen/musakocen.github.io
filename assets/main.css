@@ -1,5 +1,30 @@
 /* main.css */
 
+/* Common styles moved from headerDesign.css and footerDesign.css */
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background: #111111;
+    color: #a1a1a1;
+    padding-top: 96px;
+    font-size: 16px;
+}
+
+a {
+    color: #a1a1a1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a1a1a1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* Change the font and color of the title */
 h1,
 .site-title {
@@ -30,13 +55,6 @@ h2 {
   /* Adjust spacing between site title and page titles */
 }
 
-/* Change the color of the links */
-a {
-  color: #a1a1a1;
-  /* Change to your desired color */
-  text-decoration: none;
-}
-
 /* Optional: Change the color of links when hovered */
 a:hover {
   color: #a1a1a1;
@@ -44,17 +62,6 @@ a:hover {
   text-decoration: none;
 }
 
-
-body {
-  font-family: 'Courier New', monospace;
-  /* font-family: Arial, sans-serif; */
-  margin: 0;
-  padding: 0;
-  padding-top: 96px;
-  font-size: 16px;
-  background: #111111;
-  color: #a1a1a1;
-}
 
 nav ul {
   list-style: none;
@@ -84,12 +91,6 @@ footer {
   background-color: #f4f4f4;
   padding: 2rem 0;
 } */
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  /* padding: 0 1rem;  Optional: add padding to prevent text touching the edges on small screens */
-}
 
 .about h2 {
   font-size: 2rem;
