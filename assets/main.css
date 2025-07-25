@@ -23,6 +23,7 @@ a:hover {
 .container {
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Change the font and color of the title */
@@ -176,6 +177,7 @@ footer {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 20px;
   }
   .container::selection,
   .container *::selection {
@@ -185,3 +187,92 @@ footer {
     background-clip: text;
   }
 }}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  body {
+    padding-top: 60px;
+    font-size: 14px;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  
+  main {
+    padding: 0.5rem 15px;
+  }
+  
+  h1, .site-title {
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  .post-date {
+    width: 120px;
+    font-size: 0.8em;
+    margin-right: 8px;
+  }
+  
+  .post-title {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 50px;
+    font-size: 13px;
+  }
+  
+  .container {
+    padding: 0 10px;
+  }
+  
+  main {
+    padding: 0.25rem 10px;
+  }
+  
+  h1, .site-title {
+    font-size: 16px;
+  }
+  
+  h2 {
+    font-size: 14px;
+  }
+  
+  .post-title {
+    margin-bottom: 20px;
+    display: block !important;
+    flex-direction: column !important;
+  }
+  
+  .post-title a {
+    display: block !important;
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+    flex-direction: column !important;
+  }
+  
+  .post-date {
+    width: 100% !important;
+    font-size: 0.75em;
+    margin-right: 0 !important;
+    margin-bottom: 5px;
+    text-align: left;
+    display: block !important;
+    flex: none !important;
+  }
+  
+  .post-title-text {
+    display: block !important;
+    text-align: left;
+    width: 100%;
+    flex: none !important;
+  }
+}
