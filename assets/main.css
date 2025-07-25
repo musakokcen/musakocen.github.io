@@ -5,18 +5,18 @@ body {
     margin: 0;
     font-family: 'Courier New', monospace;
     background: #111111;
-    color: #a1a1a1;
+    color: #c1c1c1;
     padding-top: 96px;
     font-size: 16px;
 }
 
 a {
-    color: #a1a1a1;
+    color: #c1c1c1;
     text-decoration: none;
 }
 
 a:hover {
-    color: #a1a1a1;
+    color: #c1c1c1;
     text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ h1,
   font-family: 'Courier New', monospace;
   /* font-family: sans-serif; Change 'Arial' to your desired font */
   font-size: 20px;
-  color: #a1a1a1;
+  color: #c1c1c1;
   /* Change to your desired color */
   float: left;
 }
@@ -40,7 +40,7 @@ h2 {
   font-family: 'Courier New', monospace;
   /* font-family: sans-serif; Change 'Arial' to your desired font */
   font-size: 18px;
-  color: #a1a1a1;
+  color: #c1c1c1;
   /* Change to your desired color */
   float: left;
 }
@@ -57,7 +57,7 @@ h2 {
 
 /* Optional: Change the color of links when hovered */
 a:hover {
-  color: #a1a1a1;
+  color: #c1c1c1;
   /* Change to your desired color */
   text-decoration: none;
 }
@@ -79,7 +79,7 @@ main {
 
 footer {
   background: #111111;
-  color: #a1a1a1;
+  color: #c1c1c1;
   text-align: center;
   padding: 1rem;
   position: fixed;
@@ -147,7 +147,7 @@ footer {
   width: 150px; /* Fixed width for date to ensure alignment */
   font-size: 0.9em;
    margin-right: 10px;
-  color: #a1a1a1;
+  color: #c1c1c1;
   text-align: left; /* Align text to the left within the fixed width */
 }
 
