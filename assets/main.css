@@ -1,12 +1,37 @@
 /* main.css */
 
+/* Common styles moved from headerDesign.css and footerDesign.css */
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background: #111111;
+    color: #c1c1c1;
+    padding-top: 96px;
+    font-size: 16px;
+}
+
+a {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* Change the font and color of the title */
 h1,
 .site-title {
   font-family: 'Courier New', monospace;
   /* font-family: sans-serif; Change 'Arial' to your desired font */
   font-size: 20px;
-  color: #a1a1a1;
+  color: #c1c1c1;
   /* Change to your desired color */
   float: left;
 }
@@ -15,7 +40,7 @@ h2 {
   font-family: 'Courier New', monospace;
   /* font-family: sans-serif; Change 'Arial' to your desired font */
   font-size: 18px;
-  color: #a1a1a1;
+  color: #c1c1c1;
   /* Change to your desired color */
   float: left;
 }
@@ -30,31 +55,13 @@ h2 {
   /* Adjust spacing between site title and page titles */
 }
 
-/* Change the color of the links */
-a {
-  color: #a1a1a1;
-  /* Change to your desired color */
-  text-decoration: none;
-}
-
 /* Optional: Change the color of links when hovered */
 a:hover {
-  color: #a1a1a1;
+  color: #e67e22;
   /* Change to your desired color */
   text-decoration: none;
 }
 
-
-body {
-  font-family: 'Courier New', monospace;
-  /* font-family: Arial, sans-serif; */
-  margin: 0;
-  padding: 0;
-  padding-top: 96px;
-  font-size: 16px;
-  background: #111111;
-  color: #a1a1a1;
-}
 
 nav ul {
   list-style: none;
@@ -67,28 +74,17 @@ nav ul li {
 }
 
 main {
-  padding: 2rem;
+  padding: 0.5rem 2rem;
 }
 
 footer {
   background: #111111;
-  color: #a1a1a1;
+  color: #c1c1c1;
   text-align: center;
   padding: 1rem;
   position: fixed;
   width: 100%;
   bottom: 0;
-}
-
-/* .about {
-  background-color: #f4f4f4;
-  padding: 2rem 0;
-} */
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  /* padding: 0 1rem;  Optional: add padding to prevent text touching the edges on small screens */
 }
 
 .about h2 {
@@ -151,10 +147,41 @@ footer {
   width: 150px; /* Fixed width for date to ensure alignment */
   font-size: 0.9em;
    margin-right: 10px;
-  color: #a1a1a1;
+  color: #c1c1c1;
   text-align: left; /* Align text to the left within the fixed width */
 }
 
 .post-title-text {
   flex: 1; /* Allow the title to take up the remaining space */
 }
+
+.container::selection,
+.container *::selection {
+  background: #111111;
+  color: #fff;
+}
+
+/* WebKit-specific selection fix for Safari */
+.container::selection,
+.container *::selection {
+  background: #111111;
+  color: #fff;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@media not all and (min-resolution:.001dpcm) { @supports (-webkit-appearance:none) {
+  .container {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .container::selection,
+  .container *::selection {
+    background: #111111;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}}

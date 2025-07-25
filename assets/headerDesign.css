@@ -1,10 +1,5 @@
 /* assets/headerDesign.css */
 
-body {
-    margin: 0;
-    font-family: 'Courier New', monospace;
-}
-
 .headerDesign {
     display: flex;
     justify-content: space-between;
@@ -28,16 +23,12 @@ body {
 }
 
 .headerDesign a {
-    text-decoration: none;
-    color: #eeeeee;
     border-radius: 4px;
     margin-right: 10px; /* Adjust as needed */
 }
 
 .headerDesign a:hover {
     background: #111111;
-    color: #eeeeee;
-    text-decoration: none;
 }
 
 @media (max-width: 720px) {
