@@ -5,6 +5,11 @@ subtitle: Some key projects I've contributed to in recent years
 ---
 <div class="container">
 
+<p style="font-family: 'Courier New', monospace; font-size: 16px; line-height: 1.6; color: #a1a1a1; margin-bottom: 40px;">
+Over the years, I’ve worked on diverse mobile apps, including ML tools, productivity apps, sports platforms, and utilities.<br>
+Currently part of a team developing a telephony app with call center management features.
+</p>
+
 <div style="display: flex; padding-bottom: 30px;">
     <div style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px; background-color: rgba(0, 0, 0, 0.1);">
         <img src="/assets/img/planty.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
