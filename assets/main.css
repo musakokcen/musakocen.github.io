@@ -159,3 +159,34 @@ footer {
 .post-title-text {
   flex: 1; /* Allow the title to take up the remaining space */
 }
+
+.container::selection,
+.container *::selection {
+  background: #111111;
+  color: #fff;
+}
+
+/* WebKit-specific selection fix for Safari */
+.container::selection,
+.container *::selection {
+  background: #111111;
+  color: #fff;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@media not all and (min-resolution:.001dpcm) { @supports (-webkit-appearance:none) {
+  .container {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .container::selection,
+  .container *::selection {
+    background: #111111;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}}
