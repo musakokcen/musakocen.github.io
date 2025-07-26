@@ -7,7 +7,7 @@ subtitle: Some key projects I've contributed to in recent years
 
 <p style="font-family: 'Courier New', monospace; font-size: 16px; line-height: 1.6; margin-bottom: 40px;">
 Over the years, I’ve worked on diverse mobile apps, including ML tools, productivity apps, sports platforms, and utilities.<br>
-Currently part of a team developing a telephony app with call center management features.
+Currently, I'm part of a team developing a telephony app with call center management features.
 </p>
 
 <div style="display: flex; padding-bottom: 30px;">
