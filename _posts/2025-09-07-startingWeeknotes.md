@@ -19,4 +19,4 @@ It was extra special because my brother came to visit Munich, and we got to spen
 
 After a couple of days off at the beginning of the week, I went back to work feeling fully recharged. That short break was enough to clear my head and bring my energy back. 
 
-I try to cycle at least once a week, usually on weekends. This week, I chose a short tour since I took a one-week break from both running and cycling. I rode 50 km on gravel roads around the parks in the Dachau area. I usually pick road bike routes for comfort, but I also liked the park cycling and will probably prefer it in the coming weeks. 
+I try to cycle at least once a week, usually on weekends. Even though my plans were different, I usually chose road bike routes because they're more comfortable, but this week I picked a gravel tour in the parks around Dachau and rode 50 km. I also enjoyed gravel cycling and will probably prefer it in the coming weeks.
