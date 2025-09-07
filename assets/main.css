@@ -145,11 +145,14 @@ footer {
 
 .post-date {
   display: inline-block;
-  width: 150px; /* Fixed width for date to ensure alignment */
+  min-width: 120px; /* Minimum width for date, can expand if needed */
+  width: auto;
   font-size: 0.9em;
-   margin-right: 10px;
+  margin-right: 10px;
   color: #c1c1c1;
-  text-align: left; /* Align text to the left within the fixed width */
+  text-align: left;
+  white-space: nowrap; /* Prevent line breaks within the date */
+  flex-shrink: 0; /* Prevent the date from shrinking */
 }
 
 .post-title-text {
@@ -213,9 +216,12 @@ footer {
   }
   
   .post-date {
-    width: 120px;
+    min-width: 120px;
+    width: auto;
     font-size: 0.8em;
     margin-right: 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   
   .post-title {
