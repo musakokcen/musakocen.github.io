@@ -12,7 +12,7 @@ Currently, I'm part of a team developing a telephony app with call center manage
 
 <div style="display: flex; padding-bottom: 30px;">
     <div style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px; background-color: rgba(0, 0, 0, 0.1);">
-        <img src="/assets/img/planty.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
+        <img src="/assets/img/planty.webp" alt="Thumbnail" loading="lazy" class="project-thumbnail">
     </div>
     <p style="margin: 0; align-self: flex-start;">
     Planty: Plant Identifier, Care <a href="https://apps.apple.com/gb/app/planty-plant-identifier-care/id1603599822" target="_blank">↗</a> <br>
@@ -22,7 +22,7 @@ Currently, I'm part of a team developing a telephony app with call center manage
 
 <div style="display: flex; padding-bottom: 30px;">
     <div style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px; background-color: rgba(0, 0, 0, 0.1);">
-        <img src="/assets/img/mathhero.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
+        <img src="/assets/img/mathhero.webp" alt="Thumbnail" loading="lazy" class="project-thumbnail">
     </div>
     <p style="margin: 0; align-self: flex-start;">
     Math AI: Problem Solver Helper <a href="https://apps.apple.com/gb/app/math-ai-problem-solver-helper/id1565102390" target="_blank">↗</a><br>
@@ -32,7 +32,7 @@ Currently, I'm part of a team developing a telephony app with call center manage
 
 <div style="display: flex; padding-bottom: 30px;">
     <div style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px; background-color: rgba(0, 0, 0, 0.1);">
-        <img src="/assets/img/goodRec.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
+        <img src="/assets/img/goodRec.webp" alt="Thumbnail" loading="lazy" class="project-thumbnail">
     </div>
     <p style="margin: 0; align-self: flex-start;">
     GoodRec (ex Just Play) <a href="https://apps.apple.com/gb/app/goodrec-ex-just-play/id1510554246" target="_blank">↗</a><br>
@@ -42,7 +42,7 @@ Currently, I'm part of a team developing a telephony app with call center manage
 
 <div style="display: flex; padding-bottom: 30px;">
     <div style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px; background-color: rgba(0, 0, 0, 0.1);">
-        <img src="/assets/img/easyScanner.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
+        <img src="/assets/img/easyScanner.webp" alt="Thumbnail" loading="lazy" class="project-thumbnail">
     </div>
     <p style="margin: 0; align-self: flex-start;">
     Easy Scanner PDF Document Scan     <a href="https://apps.apple.com/gb/app/easy-scanner-pdf-document-scan/id1180773759" target="_blank">↗</a><br>
@@ -53,7 +53,7 @@ Currently, I'm part of a team developing a telephony app with call center manage
 
 <div style="display: flex; padding-bottom: 30px;">
     <div style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px; background-color: rgba(0, 0, 0, 0.1);">
-        <img src="/assets/img/easyFax.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
+        <img src="/assets/img/easyFax.webp" alt="Thumbnail" loading="lazy" class="project-thumbnail">
     </div>
     <p style="margin: 0; align-self: flex-start;">
     FAX from iPhone Free: Send Now <a href="https://apps.apple.com/gb/app/fax-from-iphone-free-send-now/id1179154292" target="_blank">↗</a><br>
@@ -64,7 +64,7 @@ Currently, I'm part of a team developing a telephony app with call center manage
 
 <div style="display: flex; padding-bottom: 30px;">
     <div style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px; background-color: rgba(0, 0, 0, 0.1);">
-        <img src="/assets/img/callRecorder.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
+        <img src="/assets/img/callRecorder.webp" alt="Thumbnail" loading="lazy" class="project-thumbnail">
     </div>
     <p style="margin: 0; align-self: flex-start;">
     ACR Call Recorder for iPhone <a href="https://apps.apple.com/gb/app/acr-call-recorder-for-iphone/id1377904267" target="_blank">↗</a><br>
@@ -75,7 +75,7 @@ Currently, I'm part of a team developing a telephony app with call center manage
 
 <div style="display: flex; padding-bottom: 30px;">
     <div style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px; background-color: rgba(0, 0, 0, 0.1);">
-        <img src="/assets/img/ws.svg" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
+        <img src="/assets/img/ws.svg" alt="Thumbnail" loading="lazy" class="project-thumbnail">
     </div>
     <p style="margin: 0; align-self: flex-start;">
     WannaShoot<br>
@@ -85,7 +85,7 @@ Currently, I'm part of a team developing a telephony app with call center manage
 
 <div style="display: flex; padding-bottom: 30px;">
     <div style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px; background-color: rgba(0, 0, 0, 0.1);">
-        <img src="/assets/img/xbotgo.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
+        <img src="/assets/img/xbotgo.webp" alt="Thumbnail" loading="lazy" class="project-thumbnail">
     </div>
     <p style="margin: 0; align-self: flex-start;">
     Blink Focus Xbot Goe <a href="https://apps.apple.com/tm/app/xbotgo/id1581355712" target="_blank">↗</a><br>
@@ -95,7 +95,7 @@ Currently, I'm part of a team developing a telephony app with call center manage
 
 <div style="display: flex; padding-bottom: 30px;">
     <div style="width: 50px; height: 50px; margin-right: 10px; align-self: top; border-radius: 25px; margin-top: 8px; background-color: rgba(0, 0, 0, 0.1);">
-        <img src="/assets/img/LVS.webp" alt="Thumbnail" loading="lazy" style="width: 50px; height: 50px; border-radius: 25px; display: block;">
+        <img src="/assets/img/LVS.webp" alt="Thumbnail" loading="lazy" class="project-thumbnail">
     </div>
     <p style="margin: 0; align-self: flex-start;">
     LVStudio <a href="https://apps.apple.com/us/app/lvstudio/id1497816078" target="_blank">↗</a><br>
