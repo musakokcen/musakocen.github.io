@@ -1,0 +1,19 @@
+---
+layout: blogpost
+title: "Finishing the Day Peacefully"
+subtitle: ""
+---
+
+There have been many times when I found it hard to stop thinking about work. A problem, task, or some details would stay stuck in my mind. This usually happened when I was deeply engaged in a project that spanned several days, when I was learning something new, or when I was building something without yet seeing the results. But somehow, over time, this has changed. I noticed that such moments became less frequent, and when they did occur, I could easily identify the reason. To put it simply, the key was that I started recording my progress and everything on my mind.
+
+When I reflected on my professional growth, I realized at one point that I had forgotten many things I’d accomplished. This made me think about my long-term self and I didn’t want to lose track of my efforts. There are significant milestones I aim for and remember, but there are also many small, everyday steps that matter in the long run or would support me when I feel weak, especially when it comes to self-evaluation. As a result, I started keeping daily notes. Some might call this a “brag document,” but for me, the goal isn’t just quarterly or semiannual evaluations, it’s more about understanding myself and tracking my daily progress. This habit now also extends beyond my work. 
+
+I keep track of my progress by writing down what I plan to do in a day and where I end up by the end of it. When I complete the plan, I feel positive and productive. When I cannot complete it, I simply write the obstacles or other reasons. Otherwise, if my work spans multiple days or the task I start doesn’t finish by the day’s end, I tend to carry many thoughts with me afterward, plans, ideas, edge cases, and possible solutions that linger in my mind. To deal with this, I simply record them as well. I make sure to stop at a point where a meaningful part of the task is completed. I save my progress and write down everything I’m thinking about.
+
+This is key for me; noting everything that comes to mind frees me from having to think about it anymore. Writing it down feels as if it’s already done. If I reach a point where I can’t make meaningful progress, I record what I plan to do or try next. Transferring everything from my mind really helps me disconnect and find peace in the evening.
+
+This habit also helps me in other ways. It allows me to see how productive I am throughout the day, and being aware of that keeps me positive and motivated. 
+
+After doing all this, I also want to refresh myself and start each day with a more positive mindset. I believe the key lies in how I spend my life outside of work. Quality time beyond work translates into more motivation within it. Engaging in activities or hobbies that I look forward to, something I think about even when I’m not doing it, helps me disconnect from work at the right time. This naturally refreshes my mind. Personally, I try to adopt physical hobbies, since my work mostly involves intellectual effort. I feel that these activities help me maintain a healthy balance.
+
+To summarize, finishing the day peacefully comes down to a few simple yet effective habits: writing down everything that might keep your mind busy, stopping at a meaningful milestone in your progress, and developing a life outside of work. With these small practices, the mind feels clearer, and the day ends more peacefully.
