@@ -3,7 +3,6 @@ layout: blogpost
 title: "Finishing the Day Peacefully"
 subtitle: ""
 ---
-
 There have been many times when I found it hard to stop thinking about work. A problem, task, or some details would stay stuck in my mind. This usually happened when I was deeply engaged in a project that spanned several days, when I was learning something new, or when I was building something without yet seeing the results. But somehow, over time, this has changed. I noticed that such moments became less frequent, and when they did occur, I could easily identify the reason. To put it simply, the key was that I started recording my progress and everything on my mind.
 
 When I reflected on my professional growth, I realized at one point that I had forgotten many things I’d accomplished. This made me think about my long-term self and I didn’t want to lose track of my efforts. There are significant milestones I aim for and remember, but there are also many small, everyday steps that matter in the long run or would support me when I feel weak, especially when it comes to self-evaluation. As a result, I started keeping daily notes. Some might call this a “brag document,” but for me, the goal isn’t just quarterly or semiannual evaluations, it’s more about understanding myself and tracking my daily progress. This habit now also extends beyond my work. 
