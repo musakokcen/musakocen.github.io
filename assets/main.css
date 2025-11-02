@@ -75,6 +75,22 @@ img:not(.project-thumbnail) {
     border-radius: 4px;
 }
 
+/* Single image container (no overlay) */
+.image-container {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.image-container .main-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
 /* Image caption styling */
 .image-caption {
     font-size: 0.85em;
