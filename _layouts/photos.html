@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+        <div class="photo-gallery">
+            {% for photo in page.photos %}
+            <figure class="photo-item">
+                <img src="{{ photo.url }}" alt="{{ photo.caption }}" loading="lazy">
+                {% if photo.caption %}
+                <figcaption>{{ photo.caption }}</figcaption>
+                {% endif %}
+            </figure>
+            {% endfor %}
+        </div>
+    </div>
+</article>

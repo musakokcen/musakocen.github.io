@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  {% include head.html %}
 </head>
 
 <body>
-  {% include google-analytics.html %}
   {% include header.html %}
-
-  <main>
-    {{ content }}
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
   </main>
-
   {% include footer.html %}
-
 </body>
 
 </html>

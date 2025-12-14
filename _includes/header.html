@@ -1,10 +1,13 @@
-<!-- _includes/header.html -->
-<link rel="stylesheet" href="{{ '/assets/headerDesign.css' | relative_url }}"> 
-
-<div class="headerDesign">
-    <div class="headerDesign-left">
-        <a href="{{ '/' | relative_url }}" style="vertical-align: middle; line-height: 1;">{{site.title}}</a> <a href="{{ '/projects' | relative_url }}" style="vertical-align: middle; line-height: 1;"> 📱Apps</a>
+<header class="site-header">
+    <div class="wrapper">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="{{ '/about' | relative_url }}">About</a></li>
+                <li><a href="{{ '/projects' | relative_url }}">Apps</a></li>
+                <li><a href="{{ '/bookmarks' | relative_url }}">Bookmarks</a></li>
+                <li><a href="{{ '/til' | relative_url }}">TIL</a></li>
+            </ul>
+        </nav>
     </div>
-    <div class="headerDesign-right">
-    </div>
-</div>
+</header>

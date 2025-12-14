@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="home">
+    {% if content %}
+    <div class="home-intro">
+        <div class="subscribe-minimal">
+            <form action="https://your-newsletter-service.com/subscribe" method="post" target="_blank">
+                <input type="email" name="email" placeholder="Subscribe to updates">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        {{ content }}
+    </div>
+    {% endif %}
+
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li class="post-item">
+            <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+            </a>
+            <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

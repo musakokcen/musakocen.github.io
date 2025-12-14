@@ -1,20 +1,11 @@
-<!-- _includes/footer.html -->
-<link rel="stylesheet" href="{{ '/assets/footerDesign.css' | relative_url }}">
-<footer class="footer">
-<div class="footer-content">
-{% if site.linkedin_username %}
-<a href="https://linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" target="_blank"><span class="sr-only">LinkedIn</span></a>
-{% endif %}
-
-{% if site.github_username %}
-<a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank"><span class="sr-only">GitHub</span></a>
-{% endif %}
-
-{% if site.twitter_username %}
-<a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter" target="_blank"><span class="sr-only">Twitter</span></a>
-{% endif %}
-
-&copy; {{ site.time | date: "%Y" }} {{ site.title }}
-
-</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <p>
+        <p>
+            &copy; {{ site.time | date: "%Y" }} {{ site.title | escape }}.
+            <a href="{{ '/feed.xml' | relative_url }}"
+                style="margin-left: 10px; font-size: 0.8em; opacity: 0.7;">RSS</a>
+        </p>
+        </p>
+    </div>
 </footer>

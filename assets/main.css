@@ -1,359 +1,401 @@
-/* main.css */
+:root {
+  --bg-color: #111111;
+  --text-color: #e0e0e0;
+  --text-muted: #888888;
+  --accent-color: #ffffff;
+  /* High contrast white for links/highlights */
+  --link-color: #e0e0e0;
+  --link-hover: #ffffff;
+  --border-color: #333333;
+  --font-main: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --spacing-unit: 1rem;
+  --container-width: 680px;
+  --header-height: 80px;
+}
 
-/* Common styles moved from headerDesign.css and footerDesign.css */
+/* Reset & Base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    font-family: 'Courier New', monospace;
-    background: #111111;
-    color: #c1c1c1;
-    padding-top: 96px;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-main);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-    color: #e67e22;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #e67e22;
-    text-decoration: none;
-}
-
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* Image styling rules - exclude project thumbnails */
-img:not(.project-thumbnail) {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
-
-/* Project thumbnail images - maintain aspect ratio and dimensions */
-.project-thumbnail {
-    width: 50px !important;
-    height: 50px !important;
-    min-width: 50px !important;
-    min-height: 50px !important;
-    max-width: 50px !important;
-    max-height: 50px !important;
-    border-radius: 25px !important;
-    display: block !important;
-    margin: 0 !important;
-    object-fit: cover !important;
-    flex-shrink: 0 !important;
-}
-
-/* Image overlay container */
-.image-overlay-container {
-    position: relative;
-    display: inline-block;
-    margin: 20px auto;
-    width: 100%;
-    text-align: center;
-}
-
-.main-image {
-    width: 100%;
-    height: auto;
-    margin: 0;
-}
-
-.overlay-image {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 10%;
-    height: auto;
-    margin: 0;
-    border: 2px solid #c1c1c1;
-    border-radius: 4px;
-}
-
-/* Single image container (no overlay) */
-.image-container {
-    display: block;
-    margin: 20px auto;
-    width: 100%;
-    text-align: center;
-}
-
-.image-container .main-image {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-}
-
-/* Image caption styling */
-.image-caption {
-    font-size: 0.85em;
-    font-style: italic;
-    color: #999;
-    text-align: center;
-    margin: 10px auto 20px auto;
-    max-width: 100%;
-}
-
-/* Change the font and color of the title */
-h1,
-.site-title {
-  font-family: 'Courier New', monospace;
-  /* font-family: sans-serif; Change 'Arial' to your desired font */
-  font-size: 20px;
-  color: #c1c1c1;
-  /* Change to your desired color */
-  float: left;
-}
-
-h2 {
-  font-family: 'Courier New', monospace;
-  /* font-family: sans-serif; Change 'Arial' to your desired font */
-  font-size: 18px;
-  color: #c1c1c1;
-  /* Change to your desired color */
-  float: left;
-}
-
-.page-title {
-  /* margin-right: 20px; Adjust spacing between site title and page titles */
-  font-size: 16px;
-  font-family: 'Courier New', monospace;
-  /* font-family: sans-serif; Use sans-serif font */
-  float: right;
-  margin-left: 20px;
-  /* Adjust spacing between site title and page titles */
-}
-
-/* Optional: Change the color of links when hovered */
-a:hover {
-  color: #e67e22;
-  /* Change to your desired color */
+  color: var(--link-color);
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
 }
 
-
-nav ul {
-  list-style: none;
-  padding: 0;
+a:hover {
+  color: var(--link-hover);
+  border-bottom-color: var(--link-hover);
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 1rem;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
 }
 
-main {
-  padding: 0.5rem 2rem;
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--accent-color);
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
 }
 
-footer {
-  background: #111111;
-  color: #c1c1c1;
-  text-align: center;
-  padding: 1rem;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-.about h2 {
+h1 {
   font-size: 2rem;
 }
 
-.about p {
-  margin: 1rem 0;
+h2 {
+  font-size: 1.5rem;
 }
 
-/* Style the post list */
-.post-list {
-  margin: 20px 0;
-  padding: 0;
-  list-style-type: none;
+h3 {
+  font-size: 1.25rem;
 }
 
-.post-list h2 {
-  font-family: 'Courier New', monospace;
-  /* font-family: 'Helvetica', sans-serif; */
-  color: #333333;
-  text-align: center;
-  margin-bottom: 10px;
+p {
+  margin-bottom: 1.5rem;
 }
 
-.post-list ul {
-  padding: 0;
+code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: #222;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+pre {
+  background: #222;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+
+/* Layout */
+.wrapper {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Sticky Footer Setup */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main,
+.page-content {
+  flex: 1;
+}
+
+/* Header */
+.site-header {
+  padding: 2rem 0 4rem;
+  /* More space at top */
+}
+
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Center vertically */
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  border: none;
+}
+
+.site-nav ul {
+  display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem;
 }
 
-.post-list li {
-  margin: 5px 0;
+.site-nav a {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  border: none;
 }
 
-.post-list a {
-  color: #1e90ff;
-  text-decoration: none;
+.site-nav a:hover {
+  color: var(--accent-color);
 }
 
-.post-list a:hover {
-  text-decoration: underline;
-  color: #ff4500;
+/* Footer */
+.site-footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  text-align: center;
+  /* Center text */
+}
+
+.site-footer .wrapper {
+  display: flex;
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  flex-direction: column;
+  /* Stack if needed, or keep row but centered */
+  gap: 1rem;
+}
+
+/* Minimal Subscribe Widget */
+.subscribe-minimal {
+  display: flex;
+  justify-content: flex-end;
+  /* Align to right */
+  margin-bottom: 2rem;
+}
+
+.subscribe-minimal form {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.subscribe-minimal input[type="email"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #444;
+  color: var(--text-color);
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  min-width: 200px;
+  border-radius: 0;
+}
+
+.subscribe-minimal input[type="email"]:focus {
+  outline: none;
+  border-bottom-color: var(--accent-color);
+}
+
+.subscribe-minimal button {
+  background: transparent;
+  border: 1px solid #444;
+  color: var(--text-muted);
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.subscribe-minimal button:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+/* Utilities */
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  color: var(--text-muted);
+  border: none;
+}
+
+.social-links a:hover {
+  color: var(--accent-color);
+}
+
+/* Home / Post List */
+.home-intro {
+  margin-bottom: 4rem;
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #222;
+}
+
+.post-link {
+  font-weight: 500;
+  border: none;
+  /* Clean look */
+}
+
+.post-link:hover {
+  border-bottom: none;
+  /* Handled by color change or maybe no underline for list items */
+  color: var(--accent-color);
+}
+
+.post-meta {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+/* Post Content */
+.post-header {
+  margin-bottom: 2rem;
 }
 
 .post-title {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
-.post-title a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
+.post-content {
+  margin-bottom: 4rem;
 }
 
-.post-date {
+/* Photos */
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.photo-item figure {
+  margin: 0;
+}
+
+.photo-item img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.photo-item img:hover {
+  opacity: 0.9;
+}
+
+/* TIL */
+.til-list {
+  list-style: none;
+  padding: 0;
+}
+
+.til-list li {
+  margin-bottom: 1rem;
+}
+
+.til-date {
   display: inline-block;
-  min-width: 120px; /* Minimum width for date, can expand if needed */
-  width: auto;
-  font-size: 0.9em;
-  margin-right: 10px;
-  color: #c1c1c1;
-  text-align: left;
-  white-space: nowrap; /* Prevent line breaks within the date */
-  flex-shrink: 0; /* Prevent the date from shrinking */
+  min-width: 120px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
 }
 
-.post-title-text {
-  flex: 1; /* Allow the title to take up the remaining space */
+/* Image Overlay & Captions */
+.image-overlay-container {
+  position: relative;
+  display: inline-block;
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
 }
 
-.container::selection,
-.container *::selection {
-  background: #111111;
-  color: #fff;
+.main-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* WebKit-specific selection fix for Safari */
-.container::selection,
-.container *::selection {
-  background: #111111;
-  color: #fff;
-  -webkit-background-clip: text;
-  background-clip: text;
+.overlay-image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 25%;
+  /* Adjusted for better visibility */
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-@media not all and (min-resolution:.001dpcm) { @supports (-webkit-appearance:none) {
-  .container {
-    display: inline-block;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  .container::selection,
-  .container *::selection {
-    background: #111111;
-    color: #fff;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-}}
-
-/* Mobile responsive styles */
-@media (max-width: 768px) {
-  body {
-    padding-top: 60px;
-    font-size: 14px;
-  }
-  
-  .container {
-    max-width: 100%;
-    padding: 0 15px;
-  }
-  
-  main {
-    padding: 0.5rem 15px;
-  }
-  
-  h1, .site-title {
-    font-size: 18px;
-  }
-  
-  h2 {
-    font-size: 16px;
-  }
-  
-  .post-date {
-    min-width: 120px;
-    width: auto;
-    font-size: 0.8em;
-    margin-right: 8px;
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
-  
-  .post-title {
-    margin-bottom: 15px;
-  }
+.image-caption {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  display: block;
 }
 
-@media (max-width: 480px) {
-  body {
-    padding-top: 50px;
-    font-size: 13px;
+/* Utilities */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .site-header {
+    padding-bottom: 2rem;
   }
-  
-  .container {
-    padding: 0 10px;
+
+  .post-item {
+    flex-direction: column;
+    gap: 0.25rem;
   }
-  
-  main {
-    padding: 0.25rem 10px;
+
+  .post-meta {
+    margin-left: 0;
   }
-  
-  h1, .site-title {
-    font-size: 16px;
-  }
-  
-  h2 {
-    font-size: 14px;
-  }
-  
-  .post-title {
-    margin-bottom: 20px;
-    display: block !important;
-    flex-direction: column !important;
-  }
-  
-  .post-title a {
-    display: block !important;
-    text-decoration: none;
-    color: inherit;
-    text-align: left;
-    flex-direction: column !important;
-  }
-  
-  .post-date {
-    width: 100% !important;
-    font-size: 0.75em;
-    margin-right: 0 !important;
-    margin-bottom: 5px;
-    text-align: left;
-    display: block !important;
-    flex: none !important;
-  }
-  
-  .post-title-text {
-    display: block !important;
-    text-align: left;
-    width: 100%;
-    flex: none !important;
+
+  .site-nav ul {
+    gap: 1rem;
   }
 }
