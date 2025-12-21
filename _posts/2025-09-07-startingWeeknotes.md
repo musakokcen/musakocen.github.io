@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+tags: [weeknote]
 title: "Week #36: Starting weeknotes"
 subtitle: ""
 ---

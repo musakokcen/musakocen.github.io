@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+tags: [writes]
 title: My first impressions of writing UI Tests
 subtitle: ""
 ---

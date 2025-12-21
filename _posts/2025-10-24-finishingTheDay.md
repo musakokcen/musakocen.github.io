@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+tags: [writes]
 title: "Finishing the Day Peacefully"
 subtitle: ""
 ---

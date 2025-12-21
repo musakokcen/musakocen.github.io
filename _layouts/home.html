@@ -14,7 +14,7 @@ layout: default
         <div class="horizontal-scroll-container">
             <ul class="weeknotes-deck">
                 {% for post in site.posts %}
-                {% if post.title contains "Week #" %}
+                {% if post.tags contains 'weeknote' %}
                 <li class="deck-card">
                     <a class="deck-link-wrapper" href="{{ post.url | relative_url }}">
                         <span class="deck-date">{{ post.date | date: "%b %d" }}</span>
@@ -33,7 +33,7 @@ layout: default
         <div class="timeline-container">
             <ul class="post-list timeline-list">
                 {% for post in site.posts %}
-                {% unless post.title contains "Week #" %}
+                {% if post.tags contains 'writes' %}
                 <li class="post-item timeline-item">
                     <span class="timeline-marker"></span>
                     <div class="timeline-content">
@@ -43,7 +43,7 @@ layout: default
                         <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
                     </div>
                 </li>
-                {% endunless %}
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>
