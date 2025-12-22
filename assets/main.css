@@ -4,7 +4,7 @@
   --text-muted: #888888;
   --accent-color: #d2b48c;
   /* High contrast white for links/highlights */
-  --link-color: var(--text-color);
+  --link-color: var(--accent-color);
   /* Minimalist: Links same as text until hover */
   --link-hover: #d2b48c;
   --meta-color: #d2b48c;
@@ -386,7 +386,12 @@ main,
 /* Responsive */
 @media (max-width: 600px) {
   .site-header {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  /* Force single row header on mobile */
+  .site-header .wrapper {
+    flex-wrap: nowrap;
   }
 
   .post-item {
