@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+tags: [writes]
 title: "[TR] Geçip Gitmekte Olan Resme Dönüşür"
 subtitle: ""
 ---

@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="home">
+    {% if content %}
+    <div class="home-intro">
+        {{ content }}
+    </div>
+    {% endif %}
+
+    <section class="notes-scroll-section">
+        <h2 class="section-title">Weeknotes</h2>
+        <div class="horizontal-scroll-container">
+            <ul class="weeknotes-deck">
+                {% for post in site.posts %}
+                {% if post.tags contains 'weeknote' %}
+                <li class="deck-card">
+                    <a class="deck-link-wrapper" href="{{ post.url | relative_url }}">
+                        <span class="deck-date">{{ post.date | date: "%b %d" }}</span>
+                        <h3 class="deck-title">{{ post.title | escape }}</h3>
+                        <span class="deck-arrow">→</span>
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+
+    <section class="posts-timeline-section">
+        <h2 class="section-title">Writes</h2>
+        <div class="timeline-container">
+            <ul class="post-list timeline-list">
+                {% for post in site.posts %}
+                {% if post.tags contains 'writes' %}
+                <li class="post-item timeline-item">
+                    <span class="timeline-marker"></span>
+                    <div class="timeline-content">
+                        <a class="post-link" href="{{ post.url | relative_url }}">
+                            {{ post.title | escape }}
+                        </a>
+                        <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
+                    </div>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+</div>

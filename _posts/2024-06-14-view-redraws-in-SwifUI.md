@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+tags: [writes]
 title: Property Updates and View Redraws in SwifUI
 subtitle: ""
 ---

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="til-page">
+    <h1>{{ page.title }}</h1>
+    <div class="til-content">
+        {{ content }}
+    </div>
+    <ul class="til-list">
+        {% for post in site.til %}
+        <li>
+            <span class="til-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+            <a class="til-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
