@@ -5,8 +5,9 @@ subtitle: Some key projects I've contributed to in recent years
 ---
 
 <div class="projects-intro" style="margin-bottom: 3rem;">
-  <p>Over the years, I’ve worked on diverse mobile apps, including ML tools, productivity apps, sports platforms, and utilities.<br>
-  Currently, I'm part of a team developing a telephony app with call center management features.</p>
+<p>I have contributed to the development of mobile applications across large-scale consumer platforms, telephony, sports, and productivity domains, primarily developing iOS solutions using Swift, SwiftUI, and Objective-C, with additional contributions in Flutter.</p>
+
+<p>My work involves ownership of features and modules, contributing to architectural decisions, improving performance and stability, and ensuring maintainable codebases through refactoring and testing. Currently, I am part of a team developing a B2B telephony application with call center management features, where I am responsible for a core module and collaborate closely with cross-functional teams.</p>
 </div>
 
 <div class="project-list">

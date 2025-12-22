@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About Me
-
 <p class="about-intro" style="font-size: 1.1rem; margin-bottom: 2rem;">  
 Software developer based in Munich, focused on craft and building things that help people. Specialized in mobile app development, primarily in Swift, with experience in Flutter as well.</p>
 
