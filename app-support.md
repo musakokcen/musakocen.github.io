@@ -8,6 +8,10 @@ permalink: /app-support/
 
 Thank you for choosing our app to prepare for your German naturalization test! We're here to help you succeed.
 
+## Important Notice
+
+The question data included in this app is current as of **July 5, 2025**. While we strive for accuracy, there is a possibility that some data may have been transferred to the app incorrectly. Please always refer to the official resources published by the **Bundesamt für Migration und Flüchtlinge (BAMF)** to verify the correctness of any question or answer before relying on it.
+
 ## Getting Started
 
 After installing the app, you can immediately start practicing all 310 official "Leben in Deutschland" questions. No account or internet connection required – everything works offline.
