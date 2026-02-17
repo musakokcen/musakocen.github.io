@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<p class="about-intro" style="font-size: 1.1rem; margin-bottom: 2rem;">  
+<p class="about-intro">  
 Software developer based in Munich, focused on craft and building things that help people. Specialized in mobile app development, primarily in Swift, with experience in Flutter as well.</p>
 
 ---
@@ -18,5 +18,5 @@ Software developer based in Munich, focused on craft and building things that he
 ## Contact
 
 <p>
-  You can find me on <a href="https://www.linkedin.com/in/musakokcen/" style="text-decoration: underline;">LinkedIn</a> or <a href="mailto:{{ site.email }}" style="text-decoration: underline;">send me an email</a>, either to connect or simply to say hi.
+  You can find me on <a class="underline" href="https://www.linkedin.com/in/musakokcen/">LinkedIn</a> or <a class="underline" href="mailto:{{ site.email }}">send me an email</a>, either to connect or simply to say hi.
 </p>
