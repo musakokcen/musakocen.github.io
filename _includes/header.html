@@ -3,8 +3,8 @@
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
         <nav class="site-nav">
             <ul>
-                <li><a href="{{ '/about' | relative_url }}">About</a></li>
-                <li><a href="{{ '/projects' | relative_url }}">Apps</a></li>
+                <li><a href="{{ '/about' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About</a></li>
+                <li><a href="{{ '/projects' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Apps</a></li>
             </ul>
         </nav>
     </div>

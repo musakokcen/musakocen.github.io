@@ -5,12 +5,16 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
     {% if page.subtitle %}
-    <p class="post-subtitle" style="font-size: 1.1rem; color: #888; margin-bottom: 1rem;">{{ page.subtitle }}</p>
+    <p class="post-subtitle">{{ page.subtitle }}</p>
     {% endif %}
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date: "%b %d, %Y" }}
       </time>
+      {% assign words = content | number_of_words %}
+      {% assign minutes = words | divided_by: 200 %}
+      {% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
+      <span class="reading-time"> · {{ minutes }} min read</span>
     </p>
   </header>
 
@@ -18,7 +22,14 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="post-navigation" style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #222;">
+  <div class="post-navigation">
+    {% if page.previous.url %}
+    <a class="post-nav-prev" href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>
+    {% else %}
     <a href="{{ '/' | relative_url }}">← Home</a>
+    {% endif %}
+    {% if page.next.url %}
+    <a class="post-nav-next" href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>
+    {% endif %}
   </div>
 </article>
