@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 tags: [writes]
-title: Understanding @Injectable, @Singleton, and @LazySingleton in Flutter
+title: Understanding @Injectable, @Singleton, and @LazySingleton Annotations
 subtitle: ""
 ---
 
