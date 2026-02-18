@@ -11,7 +11,6 @@ layout: default
 
     <section class="notes-scroll-section">
         <h2 class="section-title">Weeknotes</h2>
-        <span class="scroll-hint">→</span>
         <div class="horizontal-scroll-container">
             <ul class="weeknotes-deck">
                 {% for post in site.posts %}
@@ -20,7 +19,6 @@ layout: default
                     <a class="deck-link-wrapper" href="{{ post.url | relative_url }}">
                         <span class="deck-date">{{ post.date | date: "%b %d" }}</span>
                         <h3 class="deck-title">{{ post.title | escape }}</h3>
-                        <span class="deck-arrow">→</span>
                     </a>
                 </li>
                 {% endif %}

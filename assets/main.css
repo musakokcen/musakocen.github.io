@@ -1,18 +1,33 @@
+/* Light mode (default) */
 :root {
-  --bg-color: #111111;
-  --bg-subtle: #222222;
-  --text-color: #e0e0e0;
-  --text-muted: #888888;
-  --accent-color: #d2b48c;
-  --link-color: var(--accent-color);
-  --link-hover: #d2b48c;
-  --meta-color: #d2b48c;
-  --border-color: #333333;
+  --bg-color: #fafafa;
+  --bg-subtle: #f0f0f0;
+  --text-color: #1a1a1a;
+  --text-muted: #6b7280;
+  --accent-color: #1a1a1a;
+  --link-color: #1a1a1a;
+  --link-hover: #6b7280;
+  --meta-color: #6b7280;
+  --border-color: #e5e7eb;
+  --card-bg: #ffffff;
   --font-main: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --spacing-unit: 1rem;
   --container-width: 680px;
-  --header-height: 80px;
+}
+
+/* Dark mode override */
+[data-theme="dark"] {
+  --bg-color: #111111;
+  --bg-subtle: #1e1e1e;
+  --text-color: #e0e0e0;
+  --text-muted: #888888;
+  --accent-color: #e0e0e0;
+  --link-color: #e0e0e0;
+  --link-hover: #aaaaaa;
+  --meta-color: #888888;
+  --border-color: #2e2e2e;
+  --card-bg: #1a1a1a;
 }
 
 /* Reset & Base */
@@ -29,7 +44,7 @@ body {
   color: var(--text-color);
   font-family: var(--font-main);
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -64,7 +79,7 @@ h4,
 h5,
 h6 {
   color: var(--accent-color);
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 2rem;
   margin-bottom: 1rem;
   line-height: 1.3;
@@ -115,7 +130,7 @@ main,
 
 /* Header */
 .site-header {
-  padding: 2rem 0 4rem;
+  padding: 1.5rem 0 2.5rem;
 }
 
 .site-header .wrapper {
@@ -129,7 +144,7 @@ main,
 .site-title {
   font-weight: 700;
   font-size: 1.2rem;
-  color: var(--accent-color);
+  color: var(--text-color);
   border: none;
 }
 
@@ -147,13 +162,29 @@ main,
   border: none;
 }
 
-.site-nav a:hover,
-.site-nav a.active {
-  color: var(--accent-color);
+.site-nav a:hover {
+  color: var(--text-color);
 }
 
 .site-nav a.active {
-  border-bottom: 1px solid var(--accent-color);
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 1rem;
+  padding: 0;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--text-color);
 }
 
 /* Footer */
@@ -455,10 +486,9 @@ a.underline {
 
 /* Section Titles */
 .section-title {
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--meta-color);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 500;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
@@ -480,11 +510,6 @@ a.underline {
   padding-left: 0;
   margin-bottom: 2rem;
   border-bottom: none;
-  transition: transform 0.2s ease;
-}
-
-.timeline-item:hover {
-  transform: translateX(4px);
 }
 
 .timeline-marker {
@@ -497,8 +522,8 @@ a.underline {
 }
 
 .timeline-content .post-link {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 500;
   margin-bottom: 0.25rem;
   display: block;
 }
@@ -525,23 +550,6 @@ a.underline {
   display: none;
 }
 
-.scroll-hint {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--text-muted);
-  font-size: 1.2rem;
-  opacity: 0.6;
-  animation: nudge 2s ease-in-out infinite;
-  pointer-events: none;
-  z-index: 1;
-}
-
-@keyframes nudge {
-  0%, 100% { transform: translateY(-50%) translateX(0); }
-  50% { transform: translateY(-50%) translateX(5px); }
-}
 
 .weeknotes-deck {
   display: flex;
@@ -553,12 +561,12 @@ a.underline {
 
 .deck-card {
   flex: 0 0 200px;
-  background-color: #1a1a1a;
+  background-color: var(--card-bg);
   border: 1px solid var(--border-color);
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: border-color 0.2s ease;
 }
 
 .deck-link-wrapper {
@@ -577,8 +585,7 @@ a.underline {
 }
 
 .deck-card:hover {
-  border-color: var(--accent-color);
-  box-shadow: 0 6px 12px rgba(210, 180, 140, 0.15);
+  border-color: var(--text-muted);
 }
 
 .deck-date {
@@ -599,7 +606,7 @@ a.underline {
 }
 
 .deck-card:hover .deck-title {
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 
 .deck-arrow {

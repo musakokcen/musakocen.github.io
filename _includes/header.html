@@ -5,7 +5,25 @@
             <ul>
                 <li><a href="{{ '/about' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About</a></li>
                 <li><a href="{{ '/projects' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Apps</a></li>
+                <li>
+                    <button class="theme-toggle" aria-label="Toggle theme" onclick="
+                        var current = document.documentElement.getAttribute('data-theme');
+                        var next = current === 'dark' ? 'light' : 'dark';
+                        document.documentElement.setAttribute('data-theme', next);
+                        localStorage.setItem('theme', next);
+                        this.textContent = next === 'dark' ? '☀' : '☾';
+                    ">☾</button>
+                </li>
             </ul>
         </nav>
     </div>
 </header>
+<script>
+    (function() {
+        var btn = document.querySelector('.theme-toggle');
+        if (btn) {
+            var theme = document.documentElement.getAttribute('data-theme');
+            btn.textContent = theme === 'dark' ? '☀' : '☾';
+        }
+    })();
+</script>
