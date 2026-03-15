@@ -7,7 +7,7 @@ subtitle: Some key projects I've contributed to in recent years
 <div class="projects-intro">
 <p>I have contributed to the development of mobile applications across large-scale consumer platforms, telephony, sports, and productivity domains, primarily developing iOS solutions using Swift, SwiftUI, and Objective-C, with additional contributions in Flutter.</p>
 
-<p>My work involves ownership of features and modules, contributing to architectural decisions, improving performance and stability, and ensuring maintainable codebases through refactoring and testing. Currently, I am part of a team developing a B2B telephony application with call center management features, where I am responsible for a core module and collaborate closely with cross-functional teams.</p>
+<p> Here you will find an overview of some applications I have contributed to in both full-time and freelance roles.</p>
 </div>
 
 <div class="project-list">
@@ -88,7 +88,7 @@ subtitle: Some key projects I've contributed to in recent years
       </div>
       <div class="project-details">
         <h3>Blink Focus Xbot Go <a href="https://apps.apple.com/tm/app/xbotgo/id1581355712" target="_blank">↗</a></h3>
-        <p>The world's first smartphone-based auto-tracking and recording system for team sports videos.</p>
+        <p>Smartphone-based auto-tracking and recording system for team sports videos.</p>
       </div>
   </div>
 
