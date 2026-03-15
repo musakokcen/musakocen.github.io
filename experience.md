@@ -52,7 +52,7 @@ Contributed to multiple B2C iOS applications from initial planning through App S
 
 **Pineal Creative Technologies / Live View Sports, Inc.** | _Istanbul, Turkey_ | _October 2019 – July 2020_
 
-- **Crash Rate Reduction:** Improved production app stability by identifying and resolving crash-prone areas, contributing to a **measurable reduction in crash rates**.
+- **Crash Rate Reduction:** Improved production app stability by identifying and resolving crash-prone areas, contributing to a measurable reduction in crash rates.
 - **Architectural Refactoring:** Refactored selected modules from MVC to VIPER architecture, improving modularity and testability.
-- **Performance Optimization:** Developed networking features including pause/resume/background download functionality and a video caching mechanism, **significantly improving app performance and responsiveness**.
+- **Performance Optimization:** Developed networking features including pause/resume/background download functionality and a video caching mechanism, significantly improving app performance and responsiveness.
 - **Feature Development:** Implemented a custom drag-and-drop gallery with animations and integrated Realm for efficient local data storage.

@@ -1,6 +1,7 @@
 <header class="site-header">
     <div class="wrapper">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+        <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.site-nav').classList.toggle('show');">☰</button>
         <nav class="site-nav">
             <ul>
                 <li><a href="{{ '/writes' | relative_url }}" {% if page.url contains '/writes' %}class="active"{% endif %}>Writes</a></li>
@@ -28,5 +29,14 @@
             var theme = document.documentElement.getAttribute('data-theme');
             btn.textContent = theme === 'dark' ? '☀' : '☾';
         }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            var nav = document.querySelector('.site-nav');
+            var toggle = document.querySelector('.menu-toggle');
+            if (nav.classList.contains('show') && !nav.contains(event.target) && !toggle.contains(event.target)) {
+                nav.classList.remove('show');
+            }
+        });
     })();
 </script>
