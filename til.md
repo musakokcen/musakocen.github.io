@@ -1,7 +1,16 @@
 ---
-layout: til
+layout: default
 title: Today I Learned
 permalink: /til/
 ---
 
-Short notes and snippets of things I've learned.
+<ul class="post-list home-list">
+    {% for post in site.posts %}
+    {% if post.tags contains 'til' %}
+    <li class="home-post-row">
+        <a class="home-post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <span class="home-post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>

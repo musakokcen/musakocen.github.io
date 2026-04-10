@@ -5,6 +5,7 @@
         <nav class="site-nav">
             <ul>
                 <li><a href="{{ '/writes' | relative_url }}" {% if page.url contains '/writes' %}class="active"{% endif %}>Writes</a></li>
+                <li><a href="{{ '/til' | relative_url }}" {% if page.url contains '/til' %}class="active"{% endif %}>TIL</a></li>
                 <li><a href="{{ '/weeknotes' | relative_url }}" {% if page.url contains '/weeknotes' %}class="active"{% endif %}>Weeknotes</a></li>
                 <li><a href="{{ '/projects' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a></li>
                 <li><a href="{{ '/experience' | relative_url }}" {% if page.url contains '/experience' %}class="active"{% endif %}>Experience</a></li>
