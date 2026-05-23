@@ -3,7 +3,9 @@
     "allow": [
       "Bash(ls:*)",
       "WebFetch(domain:deadsimplesites.com)",
-      "WebFetch(domain:www.hendo.space)"
+      "WebFetch(domain:www.hendo.space)",
+      "Bash(find /Users/musakokcen/Documents/GitHub/soccerHeatmap -type f | head -80)",
+      "Read(//Users/musakokcen/Documents/GitHub/soccerHeatmap/**)"
     ]
   }
 }

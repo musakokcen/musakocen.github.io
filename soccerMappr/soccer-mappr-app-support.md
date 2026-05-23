@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: landing
 title: Soccer Mappr – Support
 permalink: /soccer-mappr/support/
 ---

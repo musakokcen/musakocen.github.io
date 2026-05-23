@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: landing
 title: Soccer Mappr – Privacy Policy
 permalink: /soccer-mappr/privacy/
 ---
