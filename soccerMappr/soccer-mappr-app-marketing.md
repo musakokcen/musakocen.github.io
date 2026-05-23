@@ -11,7 +11,7 @@ permalink: /soccer-mappr/
       <img src="/assets/img/soccer-mappr/icon.png" class="sm-app-icon" alt="Soccer Mappr app icon">
       <h1>Every Match, Mapped.</h1>
       <p class="sm-tagline">Turn your Apple Watch into a personal match tracker. Record your game, see your heatmap, share your performance — all without leaving the Apple ecosystem.</p>
-      <a class="sm-cta" href="#" aria-label="Download Soccer Mappr on the App Store"><!-- APP_STORE_URL -->
+      <a class="sm-cta" href="https://apps.apple.com/us/app/soccer-mappr/id6761580343" aria-label="Download Soccer Mappr on the App Store">
         <span class="sm-cta-apple"></span>
         <span class="sm-cta-label">
           <small>Download on the</small>
@@ -106,7 +106,7 @@ permalink: /soccer-mappr/
   <section class="sm-section sm-cta-row">
     <h2>Get started</h2>
     <p>Download Soccer Mappr from the App Store, open it on your iPhone, and follow the setup. When you're ready to play, open the app on your Apple Watch and tap <strong>Start Match</strong>.</p>
-    <a class="sm-cta" href="#" aria-label="Download Soccer Mappr on the App Store"><!-- APP_STORE_URL -->
+    <a class="sm-cta" href="https://apps.apple.com/us/app/soccer-mappr/id6761580343" aria-label="Download Soccer Mappr on the App Store">
       <span class="sm-cta-apple"></span>
       <span class="sm-cta-label">
         <small>Download on the</small>
