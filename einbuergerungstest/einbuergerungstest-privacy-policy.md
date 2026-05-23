@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Privacy Policy
-permalink: /privacy-policy/
+layout: landing
+title: Einbürgerungstest – Privacy Policy
+permalink: /einbuergerungstest/privacy/
 ---
 
 # Privacy Policy

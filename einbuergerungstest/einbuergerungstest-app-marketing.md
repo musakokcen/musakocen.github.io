@@ -115,7 +115,7 @@ permalink: /einbuergerungstest/
   </section>
 
   <div class="sm-footer-links">
-    <a href="/app-support/">Support</a> · <a href="/privacy-policy/">Privacy</a> · <a href="mailto:{{ site.email }}">Contact</a>
+    <a href="/einbuergerungstest/support/">Support</a> · <a href="/einbuergerungstest/privacy/">Privacy</a> · <a href="mailto:{{ site.email }}">Contact</a>
   </div>
 
 </div>

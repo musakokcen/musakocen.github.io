@@ -1,7 +1,7 @@
 ---
-layout: default
-title: App Support
-permalink: /app-support/
+layout: landing
+title: Einbürgerungstest – Support
+permalink: /einbuergerungstest/support/
 ---
 
 # Einbürgerungstest App Support
@@ -43,7 +43,7 @@ A: The app fully supports Dynamic Type. You can adjust text size in your iPhone'
 A: Yes, all your progress, saved questions, and mistake history are stored locally on your device.
 
 **Q: Is my data secure?**  
-A: Yes! All data stays on your device. We don't collect or transmit any personal information. See our [Privacy Policy](/privacy-policy/) for details.
+A: Yes! All data stays on your device. We don't collect or transmit any personal information. See our [Privacy Policy](/einbuergerungstest/privacy/) for details.
 
 ## Accessibility Features
 
