@@ -4,7 +4,7 @@ title: Weeknotes
 permalink: /weeknotes/
 ---
 
-<p class="section-intro">Notes on what I'm working on, week to week.</p>
+<p class="section-intro">A run of weeknotes to improve my self accountability. Finished with the last week of the last year.</p>
 
 <ul class="post-list home-list">
     {% for post in site.posts %}

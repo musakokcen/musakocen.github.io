@@ -4,7 +4,7 @@ title: Posts
 permalink: /writes/
 ---
 
-<p class="section-intro">Longer pieces on building software.</p>
+<p class="section-intro">Longer pieces, about software and other things going around.</p>
 
 <ul class="post-list home-list">
     {% for post in site.posts %}
