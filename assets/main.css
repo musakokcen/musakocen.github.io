@@ -1,33 +1,48 @@
-/* Light mode (default) */
+/* Paper (default) — warm off-white, like unbleached paper */
 :root {
-  --bg-color: #fafafa;
-  --bg-subtle: #f0f0f0;
-  --text-color: #1a1a1a;
-  --text-muted: #6b7280;
-  --accent-color: #1a1a1a;
-  --link-color: #1a1a1a;
-  --link-hover: #6b7280;
-  --meta-color: #6b7280;
-  --border-color: #e5e7eb;
-  --card-bg: #ffffff;
-  --font-main: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --bg-color: #FAF9F5;
+  --bg-subtle: #F0EEE5;
+  --text-color: #21201C;
+  --text-muted: #8A8578;
+  --accent-color: #21201C;
+  --link-color: #185FA5;
+  --link-hover: #185FA5;
+  --meta-color: #8A8578;
+  --border-color: #E8E5DB;
+  --card-bg: #FDFCF9;
+  --font-main: Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --spacing-unit: 1rem;
-  --container-width: 520px;
+  --container-width: 38rem;
 }
 
-/* Dark mode override */
-[data-theme="dark"] {
-  --bg-color: #111111;
-  --bg-subtle: #1e1e1e;
-  --text-color: #e0e0e0;
-  --text-muted: #888888;
-  --accent-color: #e0e0e0;
-  --link-color: #e0e0e0;
-  --link-hover: #aaaaaa;
-  --meta-color: #888888;
-  --border-color: #2e2e2e;
-  --card-bg: #1a1a1a;
+/* Lavender — tinted text and links lean the same direction as the background */
+[data-theme="lavender"] {
+  --bg-color: #E9E6F2;
+  --bg-subtle: #DFDBEC;
+  --text-color: #211E2E;
+  --text-muted: #6F6890;
+  --accent-color: #211E2E;
+  --link-color: #3D4FA1;
+  --link-hover: #3D4FA1;
+  --meta-color: #6F6890;
+  --border-color: #D6D1E5;
+  --card-bg: #F2F0F8;
+}
+
+/* Ink — dark mode without pure black */
+[data-theme="ink"] {
+  --bg-color: #1B1B1F;
+  --bg-subtle: #26262C;
+  --text-color: #E8E6E3;
+  --text-muted: #8C8C96;
+  --accent-color: #E8E6E3;
+  --link-color: #7FAEDC;
+  --link-hover: #7FAEDC;
+  --meta-color: #8C8C96;
+  --border-color: #2C2C33;
+  --card-bg: #232328;
 }
 
 /* Reset & Base */
@@ -43,14 +58,15 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: var(--font-main);
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 1.0625rem;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 a {
@@ -86,7 +102,7 @@ h4,
 h5,
 h6 {
   color: var(--accent-color);
-  font-weight: 500;
+  font-weight: 700;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   line-height: 1.3;
@@ -135,90 +151,42 @@ main,
   flex: 1;
 }
 
-/* Homepage: vertically center the intro */
-.page-content:has(.home) {
-  display: flex;
-  align-items: center;
-}
-
-.page-content:has(.home) .wrapper {
-  width: 100%;
-}
-
 /* Header */
 .site-header {
-  padding: 1rem 0 1.5rem;
+  padding: 2.5rem 0 2rem;
 }
 
 .site-header .wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.5rem 1rem;
 }
 
 .site-title {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: var(--text-color);
   border: none;
-}
-
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  color: var(--text-color);
-  cursor: pointer;
-  padding: 0;
 }
 
 .site-nav ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 1.25rem;
+  gap: 0.25rem 1rem;
 }
 
 .site-nav a {
-  font-size: 0.875rem;
-  color: var(--text-muted);
-  border: none;
-}
-
-.site-nav a:hover {
-  color: var(--text-color);
+  font-size: 0.95rem;
 }
 
 .site-nav a.active {
   color: var(--text-color);
-  font-weight: 600;
-}
-
-/* Theme toggle button */
-.theme-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: var(--text-muted);
-  font-size: 1rem;
-  padding: 0;
-  line-height: 1;
-  touch-action: manipulation;
-  transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
-}
-
-.theme-toggle:hover {
-  color: var(--text-color);
-}
-
-.theme-toggle:active {
-  opacity: 0.55;
-  transform: scale(0.88);
-  transition: opacity 0.05s, transform 0.05s;
+  border-bottom-color: transparent;
 }
 
 /* Footer */
@@ -245,6 +213,27 @@ main,
   opacity: 0.7;
 }
 
+/* Theme tokens */
+.theme-tokens {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.theme-tokens button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid var(--text-muted);
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.15s ease;
+}
+
+.theme-tokens button:hover {
+  transform: scale(1.2);
+}
+
 /* Utilities */
 .social-links {
   display: flex;
@@ -261,10 +250,8 @@ main,
 }
 
 /* Home */
-.home-intro {
-  margin: 0;
-  font-size: 1rem;
-  color: var(--text-color);
+.home h2 {
+  margin-top: 2.5rem;
 }
 
 .home-list {
@@ -277,19 +264,17 @@ main,
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 0.4rem 0;
+  padding: 0.5rem 0;
   gap: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.home-post-row:last-child {
+  border-bottom: none;
 }
 
 .home-post-link {
-  color: var(--text-color);
-  border: none;
   font-weight: 400;
-}
-
-.home-post-link:hover {
-  color: var(--text-muted);
-  border-bottom: none;
 }
 
 .home-post-date {
@@ -550,35 +535,7 @@ a.underline {
 /* Responsive */
 @media (max-width: 600px) {
   .site-header {
-    padding-bottom: 1rem;
-  }
-
-  .site-header .wrapper {
-    flex-wrap: wrap; /* allow wrapping for absolute menu */
-    position: relative; /* for absolute positioning of menu */
-  }
-
-  .menu-toggle {
-    display: block;
-    margin-left: auto;
-  }
-
-  .site-nav {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 20px;
-    right: 20px;
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 100;
-  }
-  
-  .site-nav.show {
-    display: block;
+    padding: 1.5rem 0 1.25rem;
   }
 
   .post-item {
@@ -588,11 +545,6 @@ a.underline {
 
   .post-meta {
     margin-left: 0;
-  }
-
-  .site-nav ul {
-    flex-direction: column;
-    gap: 1rem;
   }
 
   .post-navigation {
@@ -608,11 +560,13 @@ a.underline {
   .post-nav-next {
     text-align: left;
   }
-
-
 }
 
 /* Soccer Mappr landing */
+.landing-body {
+  font-family: var(--font-sans);
+}
+
 .landing-body .page-content {
   padding-top: 2rem;
   padding-bottom: 2rem;

@@ -1,43 +1,16 @@
 <header class="site-header">
     <div class="wrapper">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
-        <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.site-nav').classList.toggle('show');">☰</button>
         <nav class="site-nav">
             <ul>
                 <li><a href="{{ '/writes' | relative_url }}" {% if page.url contains '/writes' %}class="active"{% endif %}>Writes</a></li>
                 <li><a href="{{ '/til' | relative_url }}" {% if page.url contains '/til' %}class="active"{% endif %}>TIL</a></li>
                 <li><a href="{{ '/weeknotes' | relative_url }}" {% if page.url contains '/weeknotes' %}class="active"{% endif %}>Weeknotes</a></li>
+                <li><a href="{{ '/worldcup26' | relative_url }}" {% if page.url contains '/worldcup26' %}class="active"{% endif %}>World Cup 26</a></li>
                 <li><a href="{{ '/projects' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a></li>
                 <li><a href="{{ '/experience' | relative_url }}" {% if page.url contains '/experience' %}class="active"{% endif %}>Experience</a></li>
                 <li><a href="{{ '/about' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About</a></li>
-                <li>
-                    <button class="theme-toggle" aria-label="Toggle theme" onclick="
-                        var current = document.documentElement.getAttribute('data-theme');
-                        var next = current === 'dark' ? 'light' : 'dark';
-                        document.documentElement.setAttribute('data-theme', next);
-                        localStorage.setItem('theme', next);
-                        this.textContent = next === 'dark' ? '☀' : '☾';
-                    ">☾</button>
-                </li>
             </ul>
         </nav>
     </div>
 </header>
-<script>
-    (function() {
-        var btn = document.querySelector('.theme-toggle');
-        if (btn) {
-            var theme = document.documentElement.getAttribute('data-theme');
-            btn.textContent = theme === 'dark' ? '☀' : '☾';
-        }
-        
-        // Close menu when clicking outside
-        document.addEventListener('click', function(event) {
-            var nav = document.querySelector('.site-nav');
-            var toggle = document.querySelector('.menu-toggle');
-            if (nav.classList.contains('show') && !nav.contains(event.target) && !toggle.contains(event.target)) {
-                nav.classList.remove('show');
-            }
-        });
-    })();
-</script>

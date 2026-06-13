@@ -4,5 +4,19 @@
             &copy; {{ site.time | date: "%Y" }} {{ site.title | escape }}.
             <a class="footer-rss" href="{{ '/feed.xml' | relative_url }}">RSS</a>
         </p>
+        <div class="theme-tokens" role="group" aria-label="Color theme">
+            <button data-set-theme="" style="background:#FAF9F5" aria-label="Paper theme" title="Paper"></button>
+            <button data-set-theme="lavender" style="background:#E9E6F2" aria-label="Lavender theme" title="Lavender"></button>
+            <button data-set-theme="ink" style="background:#1B1B1F" aria-label="Ink theme" title="Ink"></button>
+        </div>
     </div>
 </footer>
+<script>
+    document.querySelectorAll("[data-set-theme]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+            var t = btn.dataset.setTheme;
+            document.documentElement.setAttribute("data-theme", t);
+            localStorage.setItem("theme", t);
+        });
+    });
+</script>
