@@ -12,7 +12,9 @@ Software developer writing about craft, apps, my hobbies, and things I learn alo
 
 ## Recent writing
 
-{% assign recent = site.posts | where_exp: "post", "post.tags contains 'writes' or post.tags contains 'til'" %}
+{% assign writes_posts = site.posts | where_exp: "post", "post.tags contains 'writes'" %}
+{% assign til_posts = site.posts | where_exp: "post", "post.tags contains 'til'" %}
+{% assign recent = writes_posts | concat: til_posts | sort: 'date' | reverse %}
 <ul class="post-list home-list">
 {% for post in recent limit:5 %}
   <li class="home-post-row">
