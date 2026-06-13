@@ -4,7 +4,7 @@ title: World Cup 26
 permalink: /worldcup26/
 ---
 
-My FIFA World Cup 2026 diary. Matches watched, moments, and notes from the tournament — logged as it happens, June 11 to July 19.
+My FIFA World Cup 2026 diary. I plan to log my thoughts on the tournament, the matches, and related moments.
 
 <ul class="post-list home-list">
     {% for post in site.posts %}
