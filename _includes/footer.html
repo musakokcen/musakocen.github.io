@@ -6,3 +6,12 @@
         </p>
     </div>
 </footer>
+<script>
+    document.querySelectorAll("[data-set-theme]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+            var t = btn.dataset.setTheme;
+            document.documentElement.setAttribute("data-theme", t);
+            localStorage.setItem("theme", t);
+        });
+    });
+</script>

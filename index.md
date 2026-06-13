@@ -3,4 +3,21 @@ layout: home
 title: Home
 ---
 
-Software developer writing about craft, apps, and things I learn along the way.
+Software developer writing about craft, apps, my hobbies, and things I learn along the way.
+
+<div class="currently">
+  <span class="currently-label">Currently</span>
+  <p class="currently-note">I'm building <a href="{{ '/soccer-mappr/' | relative_url }}">Soccer Mappr</a> to bring my passions together. These days I'm watching the World Cup and keeping a <a href="{{ '/worldcup26/' | relative_url }}">diary</a> on the side.</p>
+</div>
+
+## Recent writing
+
+{% assign recent = site.posts | where_exp: "post", "post.tags contains 'writes' or post.tags contains 'til'" %}
+<ul class="post-list home-list">
+{% for post in recent limit:5 %}
+  <li class="home-post-row">
+    <a class="home-post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    <span class="home-post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+  </li>
+{% endfor %}
+</ul>
