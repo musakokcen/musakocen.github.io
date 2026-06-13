@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Experience
+layout: about
+title: Career
+permalink: /experience/
 ---
 
 ## iOS Engineer

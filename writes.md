@@ -1,8 +1,10 @@
 ---
-layout: default
-title: Writes
+layout: writing
+title: Posts
 permalink: /writes/
 ---
+
+<p class="section-intro">Longer pieces on building software.</p>
 
 <ul class="post-list home-list">
     {% for post in site.posts %}

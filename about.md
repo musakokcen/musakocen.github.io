@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About
+layout: about
+title: Me
 permalink: /about/
 ---
 
@@ -10,7 +10,7 @@ Throughout my career across the telephony, sports, education, and productivity d
 
 ---
 
-# A Short Story
+## A Short Story
 
 There was a moment in my life when I needed to make a decision for my future. After experiencing different paths, I found myself educating in iOS development. It was a summer when I saw a photograph I had taken earlier and strongly associated it with my journey. I considered that moment as “setting sails for new horizons.” Since then, my sails have been on, and I continue to pushing forward.
 

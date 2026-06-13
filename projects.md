@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: about
 title: "Projects"
+permalink: /projects/
 subtitle: Some key projects I've contributed to in recent years
 ---
 

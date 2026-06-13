@@ -1,0 +1,5 @@
+<nav class="section-tabs" aria-label="Writing categories">
+    <a href="{{ '/writes/' | relative_url }}"{% if page.url == '/writes/' %} class="active" aria-current="page"{% endif %}>Posts</a>
+    <a href="{{ '/til/' | relative_url }}"{% if page.url == '/til/' %} class="active" aria-current="page"{% endif %}>TIL</a>
+    <a href="{{ '/weeknotes/' | relative_url }}"{% if page.url == '/weeknotes/' %} class="active" aria-current="page"{% endif %}>Weeknotes</a>
+</nav>

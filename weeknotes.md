@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: writing
 title: Weeknotes
 permalink: /weeknotes/
 ---
+
+<p class="section-intro">Notes on what I'm working on, week to week.</p>
 
 <ul class="post-list home-list">
     {% for post in site.posts %}

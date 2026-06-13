@@ -1,8 +1,10 @@
 ---
-layout: default
-title: Today I Learned
+layout: writing
+title: TIL
 permalink: /til/
 ---
+
+<p class="section-intro">Short notes on things I figured out.</p>
 
 <ul class="post-list home-list">
     {% for post in site.posts %}
