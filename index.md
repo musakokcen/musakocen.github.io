@@ -7,7 +7,7 @@ Software developer writing about craft, apps, and things I learn along the way.
 
 <div class="currently">
   <span class="currently-label">Currently</span>
-  <p class="currently-note">Building <a href="{{ '/soccer-mappr/' | relative_url }}">Soccer Mappr</a> after hours, and watching the World Cup by night — keeping a <a href="{{ '/worldcup26/' | relative_url }}">match diary</a> as the tournament unfolds.</p>
+  <p class="currently-note">I'm building <a href="{{ '/soccer-mappr/' | relative_url }}">Soccer Mappr</a> to bring my passions together. These days I'm watching the World Cup and keeping a <a href="{{ '/worldcup26/' | relative_url }}">diary</a> on the side.</p>
 </div>
 
 ## Recent writing
