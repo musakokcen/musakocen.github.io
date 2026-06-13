@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-Software developer writing about craft, apps, and things I learn along the way.
+Software developer writing about craft, apps, my hobbies, and things I learn along the way.
 
 <div class="currently">
   <span class="currently-label">Currently</span>
