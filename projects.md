@@ -25,21 +25,21 @@ subtitle: Some key projects I've contributed to in recent years
 
   <div class="project-item">
       <div class="project-icon">
-          <img src="/assets/img/mathhero.webp" alt="Math AI" loading="lazy">
-      </div>
-      <div class="project-details">
-        <h3>Math AI: Problem Solver Helper <a href="https://apps.apple.com/gb/app/math-ai-problem-solver-helper/id1565102390" target="_blank">↗</a></h3>
-        <p>A step-by-step math solver app for everything from simple arithmetic to advanced algebra and calculus. You can enter questions by scanning or using a LaTeX keyboard.</p>
-      </div>
-  </div>
-
-  <div class="project-item">
-      <div class="project-icon">
           <img src="/assets/img/goodRec.webp" alt="GoodRec" loading="lazy">
       </div>
       <div class="project-details">
         <h3>GoodRec (ex Just Play) <a href="https://apps.apple.com/gb/app/goodrec-ex-just-play/id1510554246" target="_blank">↗</a></h3>
         <p>Play sports games near you, regardless of your skill level or gender. Filter by city and sport, sign up for a game, and play.</p>
+      </div>
+  </div>
+
+  <div class="project-item">
+      <div class="project-icon">
+          <img src="/assets/img/mathhero.webp" alt="Math AI" loading="lazy">
+      </div>
+      <div class="project-details">
+        <h3>Math AI: Problem Solver Helper <a href="https://apps.apple.com/gb/app/math-ai-problem-solver-helper/id1565102390" target="_blank">↗</a></h3>
+        <p>A step-by-step math solver app for everything from simple arithmetic to advanced algebra and calculus. You can enter questions by scanning or using a LaTeX keyboard.</p>
       </div>
   </div>
 
@@ -53,23 +53,14 @@ subtitle: Some key projects I've contributed to in recent years
       </div>
   </div>
 
-  <div class="project-item">
-      <div class="project-icon">
-          <img src="/assets/img/easyFax.webp" alt="Easy Fax" loading="lazy">
-      </div>
-      <div class="project-details">
-        <h3>FAX from iPhone Free <a href="https://apps.apple.com/gb/app/fax-from-iphone-free-send-now/id1179154292" target="_blank">↗</a></h3>
-        <p>Turn your iPhone or iPad into a fax machine. Scan documents or add images from your camera roll or cloud services and fax them anywhere.</p>
-      </div>
-  </div>
 
   <div class="project-item">
       <div class="project-icon">
-          <img src="/assets/img/callRecorder.webp" alt="Call Recorder" loading="lazy">
+          <img src="/assets/img/LVS.webp" alt="LVStudio" loading="lazy">
       </div>
       <div class="project-details">
-        <h3>ACR Call Recorder <a href="https://apps.apple.com/gb/app/acr-call-recorder-for-iphone/id1377904267" target="_blank">↗</a></h3>
-        <p>An automatic phone call recorder app that helps you record outgoing and incoming calls with clear quality.</p>
+        <h3>LVStudio <a href="https://apps.apple.com/us/app/lvstudio/id1497816078" target="_blank">↗</a></h3>
+        <p>Live View Studio (LVStudio) is an advanced suite for visual learning of physical skills, such as playing golf.</p>
       </div>
   </div>
 
@@ -79,7 +70,7 @@ subtitle: Some key projects I've contributed to in recent years
       </div>
       <div class="project-details">
         <h3>WannaShoot</h3>
-        <p>A photographer app to record videos and photos of models remotely.</p>
+        <p>A photographer app to record videos and photos of models remotely.</p> <i>discontinued after the pandemic</i>*
       </div>
   </div>
 
@@ -90,16 +81,6 @@ subtitle: Some key projects I've contributed to in recent years
       <div class="project-details">
         <h3>Blink Focus Xbot Go <a href="https://apps.apple.com/tm/app/xbotgo/id1581355712" target="_blank">↗</a></h3>
         <p>Smartphone-based auto-tracking and recording system for team sports videos.</p>
-      </div>
-  </div>
-
-  <div class="project-item">
-      <div class="project-icon">
-          <img src="/assets/img/LVS.webp" alt="LVStudio" loading="lazy">
-      </div>
-      <div class="project-details">
-        <h3>LVStudio <a href="https://apps.apple.com/us/app/lvstudio/id1497816078" target="_blank">↗</a></h3>
-        <p>Live View Studio (LVStudio) is an advanced suite for visual learning of physical skills, such as playing golf.</p>
       </div>
   </div>
 
