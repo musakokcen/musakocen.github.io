@@ -1,24 +1,15 @@
 ---
 layout: blogpost
 tags: [worldcup26]
-title: "World Cup 26: Opening Days"
-subtitle: ""
+title: "Team A – Team B"
+date: 2026-06-13 21:00:00 +0200
 ---
 
-<!-- Template for World Cup 26 diary entries.
-     To publish: rename the file to YYYY-MM-DD-worldcup26-<slug>.md (drop the "hide-" prefix)
-     and keep tags: [worldcup26] so the entry shows up on /worldcup26/. -->
+<!-- World Cup 26 diary entry = one post per match.
+     To publish: rename to YYYY-MM-DD-worldcup26-<slug>.md (drop the "hide-" prefix).
+     - title -> the match, e.g. "USA – Paraguay" (add the score whenever you like)
+     - date  -> kickoff, "YYYY-MM-DD HH:MM" — this sorts the feed (newest on top)
+     - body  -> one note per list item; bold the clock time at the start. -->
 
-The tournament is underway.
-
-### Matches watched
-
--
-
-### Moment of the day
-
--
-
-### Notes
-
--
+- **21:00** Kickoff.
+- **21:25** A note about what's happening.

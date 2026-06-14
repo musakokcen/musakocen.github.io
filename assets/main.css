@@ -359,6 +359,72 @@ main,
   font-variant-numeric: tabular-nums;
 }
 
+/* World Cup 26 diary — live-commentary feed */
+.diary {
+  margin-top: 1.75rem;
+}
+
+.diary-entry {
+  margin-bottom: 1.6rem;
+}
+
+.diary-entry:last-child {
+  margin-bottom: 0;
+}
+
+.diary-entry-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.diary-entry-match {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.diary-entry-time {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--meta-color);
+  font-variant-numeric: tabular-nums;
+}
+
+.diary-entry-body {
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.diary-entry-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.diary-entry-body li {
+  padding: 0.16rem 0;
+  padding-left: 3.2rem;
+  text-indent: -3.2rem;
+}
+
+.diary-entry-body li strong:first-child {
+  display: inline-block;
+  width: 2.8rem;
+  margin-right: 0.4rem;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.diary-entry-body p {
+  margin: 0.3rem 0;
+}
+
 /* Legacy post-list classes (used by TIL, bookmarks) */
 .post-list {
   list-style: none;

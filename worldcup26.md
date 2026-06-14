@@ -6,13 +6,18 @@ permalink: /worldcup26/
 
 My FIFA World Cup 2026 diary. I plan to log my thoughts on the tournament, the matches, and related moments.
 
-<ul class="post-list home-list">
-    {% for post in site.posts %}
-    {% if post.tags contains 'worldcup26' %}
-    <li class="home-post-row">
-        <a class="home-post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        <span class="home-post-date">{{ post.date | date: "%b %d, %Y" }}</span>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
+<div class="diary">
+{% for post in site.posts %}
+{% if post.tags contains 'worldcup26' %}
+  <article class="diary-entry">
+    <header class="diary-entry-head">
+      <span class="diary-entry-match">{{ post.title | escape }}</span>
+      <time class="diary-entry-time">{{ post.date | date: "%-d %b · %H:%M" }}</time>
+    </header>
+    <div class="diary-entry-body">
+      {{ post.content }}
+    </div>
+  </article>
+{% endif %}
+{% endfor %}
+</div>
