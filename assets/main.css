@@ -405,18 +405,17 @@ main,
 }
 
 .diary-entry-body li {
+  display: flex;
+  gap: 0.4rem;
   padding: 0.16rem 0;
-  padding-left: 3.2rem;
-  text-indent: -3.2rem;
 }
 
 .diary-entry-body li strong:first-child {
-  display: inline-block;
-  width: 2.8rem;
-  margin-right: 0.4rem;
+  flex: 0 0 2.8rem;
   font-family: var(--font-mono);
   font-weight: 500;
   font-size: 0.78rem;
+  line-height: 1.55;
   color: var(--text-muted);
   font-variant-numeric: tabular-nums;
 }
