@@ -12,7 +12,7 @@ My FIFA World Cup 2026 diary. I plan to log my thoughts on the tournament, the m
   <article class="diary-entry">
     <header class="diary-entry-head">
       <span class="diary-entry-match">{{ post.title | escape }}</span>
-      <time class="diary-entry-time">{{ post.date | date: "%-d %b · %H:%M" }}</time>
+      <time class="diary-entry-time">{{ post.date | date: "%-d %b · %H:%M" }} (UTC{{ post.date | date: "%z" | replace: "+0", "+" | replace: "-0", "-" | slice: 0, 2 }})</time>
     </header>
     <div class="diary-entry-body">
       {{ post.content }}

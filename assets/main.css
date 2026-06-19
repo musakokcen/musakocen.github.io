@@ -405,23 +405,23 @@ main,
 }
 
 .diary-entry-body li {
-  display: flex;
-  gap: 0.4rem;
   padding: 0.16rem 0;
-}
-
-.diary-entry-body li strong:first-child {
-  flex: 0 0 2.8rem;
-  font-family: var(--font-mono);
-  font-weight: 500;
-  font-size: 0.78rem;
-  line-height: 1.55;
-  color: var(--text-muted);
-  font-variant-numeric: tabular-nums;
 }
 
 .diary-entry-body p {
   margin: 0.3rem 0;
+}
+
+/* Style the leading timestamp inline whether kramdown renders the entry as a
+   tight list (<li><strong>) or a loose one (<li><p><strong>). */
+.diary-entry-body li > strong:first-child,
+.diary-entry-body li > p:first-child > strong:first-child {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.4rem;
 }
 
 /* Legacy post-list classes (used by TIL, bookmarks) */
