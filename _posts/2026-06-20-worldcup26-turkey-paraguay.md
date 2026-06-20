@@ -1,0 +1,13 @@
+---
+layout: blogpost
+tags: [worldcup26]
+title: "Turkey – Paraguay"
+date: 2026-06-20 05:00:00 +0200
+---
+
+- **05:28** Maçın başlangıcı kötü bir sürprizdi, kötü bir dejavuydu. Bu turnuvanın en kolay gol yiyen takımı Türkiye sanırım. Paraguay önde baskıyla ve gol isteyerek başladığı maçta daha en başta kontrollü oyuna geçme şansı elde etti.
+- **06:04** İlk yarı biterken Türkiye baskıyı artırsa da net bir gol pozisyonu üretemedi. Çok sayıda duran top kullanmasına rağmen de bir pozisyon dışında tehlike oluşturamadı. İlk yarının tek olumlu yönü Almiron’un kırmızı kart görmesiydi. Sorumsuz davrandığı bir pozisyonda yeni kuralların sonucuna katlanmak zorunda kaldı. 
+İlk yarı Türkiye adına hücumda en sönük kalan isim Kerem, ardından da Yunus’tu. Bunların Arda takip ediyor fakat ilk iki oyuncunun çıkıp bu kadar orta kesilen bir maçta Deniz Gül’ün oyuna girmesini diğerinin yerine de Barış’ın girmesini bekliyorum. Paraguay adına savunmada caceres, ilerideyse asist yapan enciso ve golü atan galarza iyi oyunculardı. Sert ve temaslı oynamayı tercih ediyorlar ve oyun sık şık duruyor.
+- **06:37** Rakip on kişi olmasına rağmen ikinci yarıya tek değişiklikle ve barışı forvete koyarak çıktık. Kapalı savunmaya karşı, sürekli orta kesilen maçta kenar yönetiminin hatası olarak görüyorum. Nitekim bir süre sonra Deniz ve Can oyuna girdi ve oyuna hareketlilik geldi. Bu oyun gol getirecek mi göreceğiz.
+- **07:08** Türkiye on kişi rakibine karşı ikinci yarı boyunca ancak birkaç pozisyon üretebildi. Hem teknik ekip hem de bireysel olarak oyuncular tam bir hayal kırıklığıydı. Bu maçı kaybederek Türkiye turnuvada da veda etmiş oldu. Büyük beklentilerle geldikleri bu turnuvadan elleri boş dönüyorlar.
+- **07:28** Büyük turnuvaların ne kadar zor ve büyük dikkatle oynanması gerektiğini gördüğümüz bir kupa oluyor.  Sürekli Avrupa’da futbol oynayan takımlar farklı farklı yönleriyle öne çıkan Afrika ve Amerika takımlarına karşı şoka uğruyor.  Temaslı oyun, iyi savunma, hızlı hücumlar, fiziksel kuvvetin teknikle birleştiği takımlar var.  Rakibe verilen tek şut imkanı gole dönüşebiliyor ve bu takımlar maçın sonunu bu şekilde getirebiliyor. Her bir skor önemli ve Fransa gibi favori takımlar dahi maça büyük bir dikkatle savunmayı önceliklendirerek başladıklarını görüyoruz.  Futbolun geldiği yeri de görmemiz lazım. Fizikle tekniğin birlikte bulunduğu, temaslı oyunu oynayabilen takımlar başarılı oluyor. Türkiye sadece teknik kapasitesiyle öne çıkıyor, bu yönü de abartılıyor. Ayrıca dokuz numarasız oyunu buraya gelene kadar iyi oynamış olsa da bu turnuvada karşılaştığı rakiplere karşı sergileyemedi. Türk milli takımı adına acı bir tecrübe oldu.
