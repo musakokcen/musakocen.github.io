@@ -4,7 +4,7 @@ title: World Cup 26
 permalink: /worldcup26/
 ---
 
-My FIFA World Cup 2026 diary. I plan to log my thoughts on the tournament, the matches, and related moments.
+My FIFA World Cup 2026 diary. I log my thoughts on the tournament, the matches, and related moments.
 
 <div class="diary">
 {% for post in site.posts %}
