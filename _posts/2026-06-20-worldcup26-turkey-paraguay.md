@@ -5,7 +5,7 @@ title: "Turkey – Paraguay"
 date: 2026-06-20 05:00:00 +0200
 ---
 
-- **05:28** Maçın kötü bir sürprizle, kötü bir dejavuyla başladı. Bu turnuvanın en kolay gol yiyen takımı Türkiye sanırım. Paraguay önde baskıyla ve gol isteyerek başladığı maçta daha en başta kontrollü oyuna geçme şansı elde etti.
+- **05:28** Maç kötü bir sürprizle, kötü bir dejavuyla başladı. Bu turnuvanın en kolay gol yiyen takımı Türkiye sanırım. Paraguay önde baskıyla ve gol isteyerek başladığı maçta daha en başta kontrollü oyuna geçme şansı elde etti.
 - **06:04** İlk yarı biterken Türkiye baskıyı artırsa da net bir gol pozisyonu üretemedi. Çok sayıda duran top kullanmasına rağmen de bir pozisyon dışında tehlike oluşturamadı. İlk yarının tek olumlu yönü Almiron’un kırmızı kart görmesiydi. Sorumsuz davrandığı bir pozisyonda yeni kuralların sonucuna katlanmak zorunda kaldı. 
 İlk yarı Türkiye adına hücumda en sönük kalan isim Kerem, ardından da Yunus’tu. Bunların Arda takip ediyor fakat ilk iki oyuncunun çıkıp bu kadar orta kesilen bir maçta Deniz Gül’ün oyuna girmesini diğerinin yerine de Barış’ın girmesini bekliyorum. Paraguay adına savunmada caceres, ilerideyse asist yapan enciso ve golü atan galarza iyi oyunculardı. Sert ve temaslı oynamayı tercih ediyorlar ve oyun sık şık duruyor.
 - **06:37** Rakip on kişi olmasına rağmen ikinci yarıya tek değişiklikle ve barışı forvete koyarak çıktık. Kapalı savunmaya karşı, sürekli orta kesilen maçta kenar yönetiminin hatası olarak görüyorum. Nitekim bir süre sonra Deniz ve Can oyuna girdi ve oyuna hareketlilik geldi. Bu oyun gol getirecek mi göreceğiz.
