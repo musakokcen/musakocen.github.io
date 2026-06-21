@@ -5,7 +5,7 @@ title: "Trying Xcode 27 Beta with Intelligence on a World Cup diary app"
 subtitle: ""
 ---
 
-> Currently publishing my World Cup 26 diary from this app, live at [worldcup26](/worldcup26/).
+> Currently publishing my World Cup 26 diary from this app, live at [worldcup26](/worldcup26/). Source on GitHub: [musakokcen/WWDCWorldCup2026](https://github.com/musakokcen/WWDCWorldCup2026).
 
 I was watching WWDC, and with the impact of so many Intelligence features, I immediately downloaded the new Xcode and connected my agent subscription. After this video [Create UI prototypes using agents in Xcode](https://developer.apple.com/videos/play/wwdc2026/227/), I wanted to deep dive into this. The agent experience in Xcode 26 was really awful, signing in again and again, results that don't compile, so these videos were promising, and I wanted a nice side project to experiment with them on.
 
