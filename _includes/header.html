@@ -10,7 +10,8 @@
             <nav class="site-nav">
                 <ul>
                     <li><a href="{{ '/writes' | relative_url }}" {% if page.url contains '/writes' or page.url contains '/til' or page.url contains '/weeknotes' %}class="active"{% endif %}>Writing</a></li>
-                    <li><a href="{{ '/about' | relative_url }}" {% if page.url contains '/about' or page.url contains '/experience' or page.url contains '/projects' %}class="active"{% endif %}>About</a></li>
+                    <li><a href="{{ '/projects' | relative_url }}" {% if page.url contains '/projects' or page.url contains '/apps' %}class="active"{% endif %}>Work</a></li>
+                    <li><a href="{{ '/about' | relative_url }}" {% if page.url contains '/about' or page.url contains '/experience' %}class="active"{% endif %}>About</a></li>
                 </ul>
             </nav>
         </div>

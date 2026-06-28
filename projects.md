@@ -1,6 +1,6 @@
 ---
-layout: about
-title: "Projects"
+layout: work
+title: "Professional work"
 permalink: /projects/
 subtitle: Some key projects I've contributed to in recent years
 ---

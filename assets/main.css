@@ -1041,3 +1041,166 @@ a.underline {
     max-height: 200px;
   }
 }
+
+/* =====================================================================
+   "Apps" hub — my own apps (mk-* = made by me). Card grid, theme-aware.
+   Used on /apps/ (default layout: site header/footer/themes).
+   ===================================================================== */
+
+.page-content:has(.mk-wide) .wrapper {
+  max-width: 920px;
+}
+
+.mk-wide {
+  font-family: var(--font-sans);
+}
+
+/* Hero */
+.mk-hero {
+  margin-bottom: 3rem;
+}
+.mk-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin: 0 0 0.6rem;
+}
+.mk-hero h1 {
+  font-family: var(--font-main);
+  font-size: 2.1rem;
+  line-height: 1.15;
+  margin: 0 0 0.8rem;
+}
+.mk-lede {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-width: 40rem;
+  margin: 0;
+}
+
+/* Status pill */
+.mk-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.mk-status::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.mk-status-live {
+  color: #2f9e6b;
+  border-color: color-mix(in srgb, #2f9e6b 35%, transparent);
+}
+.mk-status-wip {
+  color: #c08a2d;
+  border-color: color-mix(in srgb, #c08a2d 35%, transparent);
+}
+
+/* Buttons */
+.mk-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.45rem 0.85rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  background: transparent;
+}
+.mk-btn:hover {
+  color: var(--text-color);
+  border-color: var(--text-muted);
+  border-bottom-color: var(--text-muted);
+}
+.mk-btn-primary {
+  background: var(--text-color);
+  color: var(--bg-color);
+  border-color: var(--text-color);
+}
+.mk-btn-primary:hover {
+  color: var(--bg-color);
+  opacity: 0.88;
+  border-bottom-color: var(--text-color);
+}
+
+/* App-icon fallback tile (apps with no icon asset, e.g. World Cup Diaries) */
+.mk-icon-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(150deg, #1d6f4f, #0f3d6e);
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 22%;
+}
+
+/* Card grid */
+.mk-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+.mk-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 1.5rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.mk-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10);
+}
+.mk-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.mk-card-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 22%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+.mk-card h2 {
+  font-family: var(--font-main);
+  font-size: 1.25rem;
+  margin: 0 0 0.4rem;
+}
+.mk-card-desc {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin: 0 0 1.25rem;
+  flex-grow: 1;
+}
+.mk-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 720px) {
+  .mk-hero h1 { font-size: 1.7rem; }
+  .mk-grid { grid-template-columns: 1fr; }
+}

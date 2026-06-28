@@ -4,9 +4,16 @@ tags: [writes]
 title: "1000 km on a gravel bike"
 subtitle: ""
 ---
+<style>
+@media (max-width: 600px) {
+  .img-row { flex-direction: column; align-items: center; }
+  .img-row > div { flex: none !important; width: 100%; }
+}
+</style>
+
 This week’s last ride marked an important milestone for me. I’ve ridden over 1000 km on my gravel bike since last year. Except for the difficult conditions of Munich in the winter times, I was on it once every two weeks on average. During this time, I enjoyed many things; routes, rural side of the city, summer and winter conditions, sceneries of the Alps, healthy routine, and doing regular sports. It gave me a satisfying tiredness at the end of each ride and helped me to refresh my body, thoughts, and mood as well. 
 
-<div class="image-container" style="gap: 1rem; align-items: flex-start;">
+<div class="image-container img-row" style="gap: 1rem; align-items: flex-start;">
   <div style="flex: 738;">
     <img src="/assets/2026-06-27/strava1000km.webp" alt="Strava showing over 1000 km ridden" class="main-image">
     <p class="image-caption">Passing 1000 km on Strava.</p>
@@ -21,7 +28,7 @@ Gravel was a new category for me. I had been riding a road bike in the past and 
 
 Gravel looks like a road bike, but it is very different in many aspects. First of all, the most similar part is its body at first look. However, it’s also different. Gravel bikes have shorter body length and also a taller head tube compared to road bikes. It means that on the same size gravel and road bikes of the same brand, gravel rider stands more upright while road bike rider leans more forward and stands more parallel to the ground. The other point is gearing. Gravel bikes usually come with wider and easier gearing that helps the rider while climbing uphill, and also riding on the asphalt with small or no slopes. Gravel can easily climb and also go fast. The other point is tyres. Usually they come with all round tyres which are wide, with a smooth center that rolls reasonably well on the asphalt while it has a very good grip on dirt roads.
 
-<div class="image-container" style="gap: 1rem; align-items: flex-start;">
+<div class="image-container img-row" style="gap: 1rem; align-items: flex-start;">
   <div style="flex: 1;">
     <img src="/assets/2026-06-27/onGravelTrailBreak.webp" alt="Taking a break during a gravel ride" class="main-image">
     <p class="image-caption">Taking a break along the way.</p>
