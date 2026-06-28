@@ -1064,7 +1064,7 @@ a.underline {
    ===================================================================== */
 
 .page-content:has(.mk-wide) .wrapper {
-  max-width: 920px;
+  max-width: var(--container-width);
 }
 
 .mk-wide {
