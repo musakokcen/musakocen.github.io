@@ -13,7 +13,7 @@ permalink: /apps/
   <header class="mk-hero">
     <p class="mk-eyebrow">Side projects</p>
     <h1>Apps I build on the side</h1>
-    <p class="mk-lede">Native apps I design and ship in my spare time — each privacy-first, and each with a write-up on the blog.</p>
+    <p class="mk-lede">Native apps I design and ship in my spare time. Each privacy-first, and each with a write-up on the blog.</p>
   </header>
 
   <div class="mk-grid">
@@ -21,13 +21,12 @@ permalink: /apps/
     <article class="mk-card">
       <div class="mk-card-top">
         <img class="mk-card-icon" src="/assets/img/soccer-mappr/icon.png" alt="Soccer Mappr icon">
-        <span class="mk-status mk-status-live">Live</span>
+        <span class="mk-status mk-status-wip">TestFlight</span>
       </div>
       <h2>Soccer Mappr</h2>
-      <p class="mk-card-desc">An Apple Watch match tracker that turns your GPS into a pitch heatmap — with goals, assists, positions and shareable cards. SwiftUI, HealthKit & CloudKit.</p>
+      <p class="mk-card-desc">An Apple Watch match tracker that turns your GPS into a pitch heatmap — with goals, assists, positions and shareable cards. SwiftUI, HealthKit & CloudKit. Currently in beta on TestFlight.</p>
       <div class="mk-card-links">
-        <a class="mk-btn mk-btn-primary" href="https://apps.apple.com/us/app/soccer-mappr/id6761580343" target="_blank" rel="noopener">App Store ↗</a>
-        <a class="mk-btn" href="/soccer-mappr/">Overview</a>
+        <a class="mk-btn mk-btn-primary" href="/soccer-mappr/">Overview</a>
         {% if sm %}<a class="mk-btn" href="{{ sm.url | relative_url }}">Story</a>{% endif %}
       </div>
     </article>
