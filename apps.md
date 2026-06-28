@@ -24,10 +24,10 @@ permalink: /apps/
         <span class="mk-status mk-status-wip">TestFlight</span>
       </div>
       <h2>Soccer Mappr</h2>
-      <p class="mk-card-desc">An Apple Watch match tracker that turns your GPS into a pitch heatmap — with goals, assists, positions and shareable cards. SwiftUI, HealthKit & CloudKit. Currently in beta on TestFlight.</p>
+      <p class="mk-card-desc">An Apple Watch match tracker that turns your GPS into a pitch heatmap. With goals, assists, positions and shareable cards. SwiftUI, HealthKit & CloudKit. Currently in beta on TestFlight.</p>
       <div class="mk-card-links">
+        <span class="mk-btn mk-btn-disabled" role="button" aria-disabled="true">App Store · Soon</span>
         <a class="mk-btn mk-btn-primary" href="/soccer-mappr/">Overview</a>
-        {% if sm %}<a class="mk-btn" href="{{ sm.url | relative_url }}">Story</a>{% endif %}
       </div>
     </article>
 
@@ -37,7 +37,7 @@ permalink: /apps/
         <span class="mk-status mk-status-live">Live</span>
       </div>
       <h2>Einbürgerungstest</h2>
-      <p class="mk-card-desc">Prepare for the German naturalization exam with all 300+ official questions, a timed real-test simulation, multilingual translations and mistake tracking — fully offline.</p>
+      <p class="mk-card-desc">Prepare for the German naturalization exam with all 300+ official questions, a timed real-test simulation, multilingual translations and mistake tracking. Fully offline.</p>
       <div class="mk-card-links">
         <a class="mk-btn mk-btn-primary" href="https://apps.apple.com/us/app/quiz-b%C3%BCrger-lid-2026/id6758575798" target="_blank" rel="noopener">App Store ↗</a>
         <a class="mk-btn" href="/einbuergerungstest/">Overview</a>
@@ -51,7 +51,7 @@ permalink: /apps/
         <span class="mk-status mk-status-wip">Personal</span>
       </div>
       <h2>World Cup Diaries</h2>
-      <p class="mk-card-desc">A SwiftUI diary app for the 2026 World Cup — write (or speak) a note on a match and it publishes straight to my blog. Built with Xcode 27’s agent-driven Intelligence.</p>
+      <p class="mk-card-desc">A SwiftUI diary app for the 2026 World Cup. Write (or speak) a note on a match and it publishes straight to my blog. Built with Xcode 27’s agent-driven Intelligence.</p>
       <div class="mk-card-links">
         <a class="mk-btn mk-btn-primary" href="/worldcup26/">Diary</a>
         <a class="mk-btn" href="https://github.com/musakokcen/WWDCWorldCup2026" target="_blank" rel="noopener">Source ↗</a>
