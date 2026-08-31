@@ -8,10 +8,9 @@ permalink: /experience/
 
 **C4B Com for Business** | _Munich, Germany_ | _July 2024 – Present_
 
+- **Native Meeting Experience:** Designed and built the platform's native mobile meeting solution end-to-end, including real-time audio and video calling, two-way screen sharing, picture-in-picture, on-device background effects, and full moderation features, achieving verified feature parity with the web client while delivering capabilities only a native app can offer.
 - **API Versioning Framework:** Designed and implemented an end-to-end API versioning framework for on-premise deployments. This enabled a single app build to support heterogeneous server versions through version negotiation and graceful feature degradation.
-- **New Product Module Development:** Owned end-to-end development of a new product module, coordinating across mobile, backend, and product teams; delivered on schedule through early cross-team alignment and proactive issue resolution.
-- **Cross-Platform Quality Integration:** Contributed iOS platform expertise to a Flutter-based codebase, resolving platform-specific issues that measurably reduced iOS-only QA bug reports.
-- **CI/CD Automation:** Automated unit tests, UI tests, versioning, and App Store deployments using Fastlane, significantly reducing manual release effort and release-related errors.
+- **Team Contributions:** Trusted with responsibilities across the team beyond feature work, including leading dailies, driving bug triage and cross-team root-cause analysis spanning multiple codebases, reviewing pull requests, and coordinating the team's board and releases.
 
 ---
 
