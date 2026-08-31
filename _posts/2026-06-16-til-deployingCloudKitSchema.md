@@ -4,7 +4,7 @@ tags: [til]
 title: "Deploying CloudKit Schema to Production"
 subtitle: ""
 ---
-<p>I’ve been working on my side project <a href="{{ '/soccer-mappr/' | relative_url }}">Soccer Mappr</a>  and managed to tailor the main features to the level that I can present to people. There is still a lot to add and improve, however, the starting idea has been reached. I've done many tests, recorded real games over many weeks, and all were consistent and looked like I desired. Until I faced a problem with syncing data to the cloud in a production build.</p>
+<p>I’ve been working on my side project <a href="{{ '/heatiz/' | relative_url }}">Soccer Mappr</a>  and managed to tailor the main features to the level that I can present to people. There is still a lot to add and improve, however, the starting idea has been reached. I've done many tests, recorded real games over many weeks, and all were consistent and looked like I desired. Until I faced a problem with syncing data to the cloud in a production build.</p>
 
 <p>When I released the TestFlight version and installed from there to both my iPhone and Apple Watch, I saw that the manual entries were not syncing to the cloud. It was an interesting pain point initially because I thought I broke something while changing schemas, adding migrations during development.</p>
 

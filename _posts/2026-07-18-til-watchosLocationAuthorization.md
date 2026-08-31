@@ -4,7 +4,7 @@ tags: [til]
 title: "watchOS Location Authorization Is Arbitrated by the iPhone"
 subtitle: ""
 ---
-<p>While working on the watch side of <a href="{{ '/soccer-mappr/' | relative_url }}">Soccer Mappr</a>, I hit a permission bug that made no sense at first: every time I opened the app, the location permission prompt appeared again. I would tap "Allow", the session would work fine, and then the next launch would ask all over again as if I had never answered.</p>
+<p>While working on the watch side of <a href="{{ '/heatiz/' | relative_url }}">Soccer Mappr</a>, I hit a permission bug that made no sense at first: every time I opened the app, the location permission prompt appeared again. I would tap "Allow", the session would work fine, and then the next launch would ask all over again as if I had never answered.</p>
 
 <p>The setup looked correct. The watch app uses <code>CLLocationManager</code> so I had added <code>NSLocationWhenInUseUsageDescription</code> to the Watch target's Info.plist. That's where the code runs, so that's where the key belongs. Or so I thought. Checking the authorization status confirmed the weird part: it came back as <code>.notDetermined</code> on every new session, even right after the user had granted access.</p>
 

@@ -7,7 +7,7 @@ Software developer writing about craft, apps, my hobbies, and things I learn alo
 
 <div class="currently">
   <span class="currently-label">Currently</span>
-  <p class="currently-note">I'm building <a href="{{ '/soccer-mappr/' | relative_url }}">Soccer Mappr</a> in my spare time to bring my passions together.</p>
+  <p class="currently-note">I'm building <a href="{{ '/heatiz/' | relative_url }}">Heatiz</a> in my spare time to bring my passions together.</p>
 </div>
 
 ## Recent writing
