@@ -22,11 +22,12 @@ title: Musa Kökçen
 email: musakokcen@gmail.com
 description: "Personal website of Musa Kökçen. Writing about design, code, and photography."
 baseurl: ""
-url: "https://musakokcen.github.io"
+url: "https://musakokcen.com"
 
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-sitemap
 
 # Social
 twitter_username: musakkcn
@@ -50,6 +51,7 @@ collections:
 # their entries' file path in the `include:` list.
 exclude:
   - improvementPlan.md
+  - promotionPlaybook.md
   - README.md
   - LICENSE
   - build
