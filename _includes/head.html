@@ -18,14 +18,7 @@
   })();
 </script>
 <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-{% if site.google_analytics and jekyll.environment == "production" %}
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.google_analytics }}');
-</script>
+{% if site.umami.website_id and jekyll.environment == "production" %}
+<!-- Umami: cookieless analytics, no consent banner needed -->
+<script defer src="{{ site.umami.script_url }}" data-website-id="{{ site.umami.website_id }}" data-do-not-track="true"></script>
 {% endif %}

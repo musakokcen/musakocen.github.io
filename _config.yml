@@ -33,7 +33,11 @@ plugins:
 twitter_username: musakkcn
 github_username: musakokcen
 linkedin_username: musakokcen
-google_analytics: G-TVDKYV76QD
+
+# Analytics (Umami). Set website_id from the Umami dashboard to enable tracking.
+umami:
+  script_url: https://cloud.umami.is/script.js
+  website_id: 8ee512bc-05fc-4487-b37e-41c472e7f821
 
 # Collections
 collections:
