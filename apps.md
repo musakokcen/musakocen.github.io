@@ -21,13 +21,13 @@ permalink: /apps/
     <article class="mk-card">
       <div class="mk-card-top">
         <img class="mk-card-icon" src="/assets/img/soccer-mappr/icon.png" alt="Heatiz icon">
-        <span class="mk-status mk-status-wip">TestFlight</span>
+        <span class="mk-status mk-status-live">Live</span>
       </div>
       <h2>Heatiz</h2>
-      <p class="mk-card-desc">An Apple Watch match tracker that turns your GPS into a pitch heatmap. With goals, assists, positions and shareable cards. SwiftUI, HealthKit & CloudKit. Currently in beta on TestFlight.</p>
+      <p class="mk-card-desc">An Apple Watch match tracker that turns your GPS into a pitch heatmap. With goals, assists, positions and shareable cards. SwiftUI, HealthKit & CloudKit.</p>
       <div class="mk-card-links">
-        <span class="mk-btn mk-btn-disabled" role="button" aria-disabled="true">App Store · Soon</span>
-        <a class="mk-btn mk-btn-primary" href="/heatiz/">Overview</a>
+        <a class="mk-btn mk-btn-primary" href="https://apps.apple.com/app/apple-store/id6761580343?pt=124242658&ct=801i6&mt=8" target="_blank" rel="noopener">App Store ↗</a>
+        <a class="mk-btn" href="/heatiz/">Overview</a>
       </div>
     </article>
 

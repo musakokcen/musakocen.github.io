@@ -1231,3 +1231,25 @@ a.underline {
   .mk-hero h1 { font-size: 1.7rem; }
   .mk-grid { grid-template-columns: 1fr; }
 }
+
+/* App Store badge — black on light themes, white on Ink */
+.app-store-badge a,
+.app-store-badge a:hover {
+  display: inline-block;
+  border-bottom: none;
+}
+
+.app-store-badge img {
+  display: block;
+  height: 50px;
+  width: auto;
+}
+
+.app-store-badge .badge-dark,
+[data-theme="ink"] .app-store-badge .badge-light {
+  display: none;
+}
+
+[data-theme="ink"] .app-store-badge .badge-dark {
+  display: block;
+}
