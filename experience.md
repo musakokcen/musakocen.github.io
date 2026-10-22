@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: work
 title: Career
 permalink: /experience/
 ---
