@@ -1,18 +1,71 @@
 ---
 layout: work
-title: "Professional work"
+title: "Projects"
 permalink: /projects/
-subtitle: Some key projects I've contributed to in recent years
 ---
 
-<div class="projects-intro">
-<p>I have contributed to the development of mobile applications across large-scale consumer platforms, telephony, sports, and productivity domains, primarily developing iOS solutions using Swift, SwiftUI, and Objective-C, with additional contributions in Flutter.</p>
+{% assign qb = site.posts | where_exp: "p", "p.url contains 'releasingQuizBurger'" | first %}
+{% assign sm = site.posts | where_exp: "p", "p.url contains 'learningSoccerHeatmap'" | first %}
+{% assign wc = site.posts | where_exp: "p", "p.url contains 'building-world-cup-diaries' " | first %}
 
-<p> Here you will find an overview of some applications I have contributed to in both full-time and freelance roles.</p>
-</div>
+<div class="mk-wide mk-grid-page" markdown="0">
 
-<div class="project-list">
+  <header class="mk-hero">
+    <h2 class="mk-eyebrow">Independent products</h2>
+    <p class="mk-lede">Native apps I design, build and ship on my own, from product definition to App Store release. Each privacy-first, and each with a write-up on the blog.</p>
+  </header>
 
+  <div class="mk-grid">
+    <article class="mk-card">
+      <div class="mk-card-top">
+        <img class="mk-card-icon" src="/assets/img/soccer-mappr/icon.png" alt="Heatiz icon">
+        <span class="mk-status mk-status-live">Live</span>
+      </div>
+      <h3>Heatiz</h3>
+      <p class="mk-card-desc">An Apple Watch match tracker that turns your GPS into a pitch heatmap. With goals, assists, positions and shareable cards. SwiftUI, HealthKit & CloudKit.</p>
+      <div class="mk-card-links">
+        <a class="mk-btn mk-btn-primary" href="https://apps.apple.com/app/apple-store/id6761580343?pt=124242658&ct=801i6&mt=8" target="_blank" rel="noopener">App Store ↗</a>
+        <a class="mk-btn" href="/heatiz/">Overview</a>
+      </div>
+    </article>
+
+    <article class="mk-card">
+      <div class="mk-card-top">
+        <img class="mk-card-icon" src="/assets/img/einbuergerungstest/icon.webp" alt="Einbürgerungstest icon">
+        <span class="mk-status mk-status-live">Live</span>
+      </div>
+      <h3>Einbürgerungstest</h3>
+      <p class="mk-card-desc">Prepare for the German naturalization exam with all 300+ official questions, a timed real-test simulation, multilingual translations and mistake tracking. Fully offline.</p>
+      <div class="mk-card-links">
+        <a class="mk-btn mk-btn-primary" href="https://apps.apple.com/us/app/quiz-b%C3%BCrger-lid-2026/id6758575798" target="_blank" rel="noopener">App Store ↗</a>
+        <a class="mk-btn" href="/einbuergerungstest/">Overview</a>
+        {% if qb %}<a class="mk-btn" href="{{ qb.url | relative_url }}">Story</a>{% endif %}
+      </div>
+    </article>
+
+    <article class="mk-card">
+      <div class="mk-card-top">
+        <div class="mk-card-icon mk-icon-fallback" aria-hidden="true">⚽</div>
+        <span class="mk-status mk-status-wip">Personal</span>
+      </div>
+      <h3>World Cup Diaries</h3>
+      <p class="mk-card-desc">A SwiftUI diary app for the 2026 World Cup. Write (or speak) a note on a match and it publishes straight to my blog. Built with Xcode 27’s agent-driven Intelligence.</p>
+      <div class="mk-card-links">
+        <a class="mk-btn mk-btn-primary" href="/worldcup26/">Diary</a>
+        <a class="mk-btn" href="https://github.com/musakokcen/WWDCWorldCup2026" target="_blank" rel="noopener">Source ↗</a>
+        {% if wc %}<a class="mk-btn" href="{{ wc.url | relative_url }}">Story</a>{% endif %}
+      </div>
+    </article>
+  </div>
+
+  <header class="mk-hero mk-hero-next">
+    <h2 class="mk-eyebrow">Work shipped with teams</h2>
+    <p class="mk-lede">I have contributed to the development of mobile applications across large-scale consumer platforms, telephony, sports, and productivity domains, primarily developing iOS solutions using Swift, SwiftUI, and Objective-C, with additional contributions in Flutter. 
+
+ Here you will find an overview of some applications I have contributed to in both full-time and freelance roles.</p>
+  </header>
+
+  <div class="project-list">
   <div class="project-item">
       <div class="project-icon">
           <img src="/assets/img/planty.webp" alt="Planty" loading="lazy">
@@ -82,6 +135,7 @@ subtitle: Some key projects I've contributed to in recent years
         <h3>Blink Focus Xbot Go <a href="https://apps.apple.com/tm/app/xbotgo/id1581355712" target="_blank">↗</a></h3>
         <p>Smartphone-based auto-tracking and recording system for team sports videos.</p>
       </div>
+  </div>
   </div>
 
 </div>

@@ -1076,11 +1076,12 @@ a.underline {
   margin-bottom: 3rem;
 }
 .mk-eyebrow {
+  font-family: inherit;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.72rem;
   font-weight: 600;
-  color: var(--text-muted);
+  color: var(--text-color);
   margin: 0 0 0.6rem;
 }
 .mk-hero h1 {
@@ -1088,6 +1089,9 @@ a.underline {
   font-size: 2.1rem;
   line-height: 1.15;
   margin: 0 0 0.8rem;
+}
+.mk-hero-next {
+  margin-top: 3.5rem;
 }
 .mk-lede {
   font-size: 1.05rem;
@@ -1209,7 +1213,8 @@ a.underline {
   border-radius: 22%;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
 }
-.mk-card h2 {
+.mk-card h2,
+.mk-card h3 {
   font-family: var(--font-main);
   font-size: 1.25rem;
   margin: 0 0 0.4rem;
