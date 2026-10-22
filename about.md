@@ -4,7 +4,7 @@ title: Me
 permalink: /about/
 ---
 
-I'm a Munich-based software developer with over seven years of experience specializing in the Apple and mobile ecosystem. Driven by a focus on craft and building tools that help people, I primarily develop mobile applications using Swift, SwiftUI, and Objective-C, along with additional experience in Flutter.
+I'm a Munich-based software engineer with over seven years of experience building and scaling production software across mobile and real-time platforms. Driven by a focus on craft and building tools that help people, I own work end to end, from clarifying requirements to release and iteration. My depth is in native Apple platforms with Swift, SwiftUI and Objective-C, and I deliver Android with Flutter.
 
 Solving problems, developing solutions, and finally producing something that people use gives me an undefined satisfaction. It also feels like craftsmanship, like bakers bake bread. Therefore, I do my work with passion. 
 

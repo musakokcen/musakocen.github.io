@@ -60,9 +60,7 @@ permalink: /projects/
 
   <header class="mk-hero mk-hero-next">
     <h2 class="mk-eyebrow">Work shipped with teams</h2>
-    <p class="mk-lede">I have contributed to the development of mobile applications across large-scale consumer platforms, telephony, sports, and productivity domains, primarily developing iOS solutions using Swift, SwiftUI, and Objective-C, with additional contributions in Flutter. 
-
- Here you will find an overview of some applications I have contributed to in both full-time and freelance roles.</p>
+    <p class="mk-lede">Applications I have shipped with teams, in full-time and freelance roles, across large-scale consumer platforms, telephony, sports and productivity domains. Deep native iOS work in Swift, SwiftUI and Objective-C, plus Android delivery with Flutter.</p>
   </header>
 
   <div class="project-list">
