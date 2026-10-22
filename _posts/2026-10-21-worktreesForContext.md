@@ -91,4 +91,4 @@ Worktrees also have some costs. These are the ones I ran into:
 
 **Branches for code, worktrees for context**
 
-I used to see a branch as the work itself. Now I see it as only one part of it. The rest is the build, the notes, the unfinished experiment and the conversation with the assistant, and that part is only kept if it has its own folder.
+I used to see a branch as the work itself. Now I see it as only one part of it. The rest is the build, the notes, the unfinished experiment and the conversation with the assistant. Switching between contexts without worktrees throws that away. With a worktree for each context, everything stays where I left it.
