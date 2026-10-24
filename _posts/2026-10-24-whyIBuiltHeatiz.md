@@ -44,6 +44,6 @@ Your data stays in Apple Health and your iCloud, unless you choose to share it t
 
 ## It's live
 
-Heatiz is now on the [App Store](https://apps.apple.com/app/id6761580343). It also runs on iPhone Duo, and you can import your older matches from Apple Health, so your season doesn't start empty. You can read more about the app on the [Heatiz page](/heatiz/).
+Heatiz is now on the [App Store](https://apps.apple.com/app/id6761580343). It also runs on iPhone Duo, and you can import your older matches from Apple Health, so your season doesn't start empty.
 
 I built Heatiz because I wanted it after every match. If you play football and wear an Apple Watch, I hope you'll want it too. Try it, share a heatmap, and tell me what's missing.
