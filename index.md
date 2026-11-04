@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-<h1 class="home-lead">Software developer writing about craft, apps, my hobbies, and things I learn along the way.</h1>
+<h1 class="home-lead">Senior software engineer specialized in Apple platforms. I build products end to end, from idea to market.</h1>
 
 <div class="currently">
   <p class="currently-note">Right now I'm working on <a href="{{ '/heatiz/' | relative_url }}">Heatiz</a>, now on the App Store, in my spare time to bring my passions together.</p>

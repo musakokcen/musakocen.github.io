@@ -4,7 +4,7 @@ title: Me
 permalink: /about/
 ---
 
-I'm a Munich-based software engineer with over seven years of experience building and scaling production software across mobile and real-time platforms. Driven by a focus on craft and building tools that help people, I own work end to end, from clarifying requirements to release and iteration. My depth is in native Apple platforms with Swift, SwiftUI and Objective-C, and I deliver Android with Flutter.
+I'm a senior software engineer specialized in Apple platforms, based in Munich. I build products end to end, from idea to market. Over seven years I've shipped native apps in Swift, SwiftUI and Objective-C, real-time meetings over WebRTC, and Android apps with Flutter when the product needed them.
 
 Solving problems, developing solutions, and finally producing something that people use gives me an undefined satisfaction. It also feels like craftsmanship, like bakers bake bread. Therefore, I do my work with passion. 
 
