@@ -3,11 +3,10 @@ layout: home
 title: Home
 ---
 
-Software developer writing about craft, apps, my hobbies, and things I learn along the way.
+<h1 class="home-lead">Software developer writing about craft, apps, my hobbies, and things I learn along the way.</h1>
 
 <div class="currently">
-  <span class="currently-label">Currently</span>
-  <p class="currently-note">I'm working on <a href="{{ '/heatiz/' | relative_url }}">Heatiz</a>, now on the App Store, in my spare time to bring my passions together.</p>
+  <p class="currently-note">Right now I'm working on <a href="{{ '/heatiz/' | relative_url }}">Heatiz</a>, now on the App Store, in my spare time to bring my passions together.</p>
 </div>
 
 ## Recent writing

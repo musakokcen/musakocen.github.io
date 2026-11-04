@@ -3,11 +3,11 @@
   --bg-color: #FAF9F5;
   --bg-subtle: #F0EEE5;
   --text-color: #21201C;
-  --text-muted: #8A8578;
+  --text-muted: #6B675C;
   --accent-color: #21201C;
   --link-color: #185FA5;
   --link-hover: #185FA5;
-  --meta-color: #8A8578;
+  --meta-color: #6B675C;
   --border-color: #E8E5DB;
   --card-bg: #FDFCF9;
   --font-main: Georgia, "Times New Roman", serif;
@@ -22,11 +22,11 @@
   --bg-color: #E9E6F2;
   --bg-subtle: #DFDBEC;
   --text-color: #211E2E;
-  --text-muted: #6F6890;
+  --text-muted: #5C5680;
   --accent-color: #211E2E;
   --link-color: #3D4FA1;
   --link-hover: #3D4FA1;
-  --meta-color: #6F6890;
+  --meta-color: #5C5680;
   --border-color: #D6D1E5;
   --card-bg: #F2F0F8;
 }
@@ -87,6 +87,30 @@ a:active {
   transition: opacity 0.05s;
 }
 
+/* Links inside running text are underlined, so they don't rely on colour alone */
+.post-content a,
+.page-content p:not(.project-links) a,
+.page-content li p a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: color-mix(in srgb, var(--link-color) 45%, transparent);
+  transition: color 0.2s ease, text-decoration-color 0.2s ease, opacity 0.2s ease;
+}
+
+.post-content a:hover,
+.page-content p:not(.project-links) a:hover,
+.page-content li p a:hover {
+  border-bottom-color: transparent;
+  text-decoration-color: var(--link-color);
+}
+
+:focus-visible {
+  outline: 2px solid var(--link-color);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -109,15 +133,25 @@ h6 {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2.25rem;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
+  letter-spacing: -0.01em;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.75rem;
+  }
 }
 
 p {
@@ -210,12 +244,10 @@ main,
   flex-wrap: wrap;
   gap: 1.5rem;
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid var(--border-color);
 }
 
 .section-tabs a {
-  font-family: var(--font-sans);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   border: none;
   padding-bottom: 0.6rem;
@@ -233,8 +265,7 @@ main,
 }
 
 .section-intro {
-  font-family: var(--font-sans);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   margin-top: 0;
   margin-bottom: 1.5rem;
@@ -242,9 +273,8 @@ main,
 
 /* Footer */
 .site-footer {
-  margin-top: 2rem;
-  padding: 1rem 0;
-  border-top: 1px solid var(--border-color);
+  margin-top: 4rem;
+  padding: 1.5rem 0 2rem;
   font-size: 0.9rem;
   color: var(--text-muted);
   text-align: center;
@@ -260,8 +290,6 @@ main,
 
 .footer-rss {
   margin-left: 10px;
-  font-size: 0.8em;
-  opacity: 0.7;
 }
 
 /* Theme tokens */
@@ -302,26 +330,25 @@ main,
 }
 
 /* Home */
+/* The site name already sits in the header, so the home h1 is the tagline at lead size */
+.home h1.home-lead {
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
 .home h2 {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
 }
 
 .currently {
   margin-top: 2rem;
-  padding: 0.875rem 0;
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
-}
-
-.currently-label {
-  display: block;
-  font-family: var(--font-sans);
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--meta-color);
-  margin-bottom: 0.35rem;
+  padding: 1rem 1.25rem;
+  background: var(--bg-subtle);
+  border-radius: 4px;
 }
 
 .currently-note {
@@ -339,13 +366,8 @@ main,
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 0.5rem 0;
+  padding: 0.45rem 0;
   gap: 1rem;
-  border-bottom: 1px solid var(--border-color);
-}
-
-.home-post-row:last-child {
-  border-bottom: none;
 }
 
 .home-post-link {
@@ -353,7 +375,7 @@ main,
 }
 
 .home-post-date {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   color: var(--text-muted);
   flex-shrink: 0;
   font-variant-numeric: tabular-nums;
@@ -380,15 +402,13 @@ main,
 }
 
 .diary-entry-match {
-  font-family: var(--font-sans);
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: 0.01em;
 }
 
 .diary-entry-time {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.85rem;
   color: var(--meta-color);
   font-variant-numeric: tabular-nums;
 }
@@ -416,9 +436,8 @@ main,
    tight list (<li><strong>) or a loose one (<li><p><strong>). */
 .diary-entry-body li > strong:first-child,
 .diary-entry-body li > p:first-child > strong:first-child {
-  font-family: var(--font-mono);
-  font-weight: 500;
-  font-size: 0.78rem;
+  font-weight: 600;
+  font-size: 0.85rem;
   color: var(--text-muted);
   font-variant-numeric: tabular-nums;
   margin-right: 0.4rem;
@@ -436,7 +455,6 @@ main,
   justify-content: space-between;
   align-items: baseline;
   padding: 0.5rem 0;
-  border-bottom: 1px solid var(--bg-subtle);
 }
 
 .post-link {
@@ -450,7 +468,7 @@ main,
 }
 
 .post-meta {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   color: var(--meta-color);
   flex-shrink: 0;
   margin-left: 1rem;
@@ -492,18 +510,17 @@ main,
   margin-bottom: 0;
 }
 
+/* A section break is extra space, not a drawn line */
 hr,
 .post-content hr {
   border: none;
-  border-top: 1px solid var(--border-color);
-  margin: 2rem 0;
+  height: 0;
+  margin: 3rem 0;
 }
 
 /* Post Navigation */
 .post-navigation {
-  margin-top: 3rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--bg-subtle);
+  margin-top: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -526,8 +543,7 @@ hr,
 
 /* Reading Time */
 .reading-time {
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: var(--meta-color);
 }
 
@@ -568,8 +584,8 @@ hr,
   display: inline-block;
   min-width: 120px;
   color: var(--text-muted);
-  font-family: var(--font-mono);
   font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Image Overlay & Captions */
