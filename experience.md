@@ -4,7 +4,7 @@ title: Career
 permalink: /experience/
 ---
 
-Product-minded software engineer with over seven years of experience building and scaling production software across mobile and real-time platforms, with deep native iOS (Swift) expertise and Android delivery via Flutter. I own work end-to-end, from clarifying requirements and making architecture decisions to release and iteration.
+Seven years of building Apple-platform products, from a large-scale super app to apps I shipped on my own. The full CV is available on request via [LinkedIn](https://www.linkedin.com/in/musakokcen/) or [email](mailto:{{ site.email }}).
 
 ---
 
@@ -12,25 +12,25 @@ Product-minded software engineer with over seven years of experience building an
 
 **C4B Com for Business** | _Munich, Germany_ | _July 2024 – Present_
 
-Native client apps (iOS, Android and macOS) for XPhone NextGen, C4B's unified communications platform.
+Native iOS, macOS and Android (Flutter) clients for XPhone NextGen, a unified communications platform that business customers run on their own servers.
 
-- **Native Meeting Experience:** Designed and delivered the platform's native mobile and desktop meeting solution end-to-end: real-time audio and video over WebRTC, two-way screen sharing, Picture-in-Picture, on-device background effects and full moderation features. Reached verified feature parity with the existing web client while adding capabilities only a native app can offer.
-- **API Versioning Framework:** Decided on and built an API versioning framework for on-premise deployments, so a single app build supports customers on different server versions through version negotiation, factory-based API selection and capability interfaces with graceful feature degradation. Annotation-driven code generation makes API registration compile-time safe and cuts onboarding a new server version down to a single annotated class.
-- **Cross-Platform Work:** Brought iOS platform expertise into the Flutter (iOS and Android) codebase and introduced systematic performance measurement and debugging practices. Platform-specific fixes measurably reduced iOS-only QA bug reports.
-- **Release Automation:** Automated unit tests, UI tests, versioning and TestFlight and Google Play deployments with Fastlane, reducing manual release effort and release-related errors.
-- **AI-Assisted Delivery:** Used Claude Code to produce a working prototype of the meeting module in three days, mapping company-specific APIs, business rules and product flows that would have taken weeks to reverse-engineer alone, while building the UI in parallel.
-- **Team Contributions:** Trusted with responsibilities beyond feature work: driving bug triage and cross-team root-cause analysis spanning multiple codebases, reviewing pull requests, and coordinating the team's board and releases.
+- **Native meetings:** Designed and delivered the native meeting experience end to end: WebRTC audio and video, two-way screen sharing, Picture-in-Picture, on-device background effects and moderation. It reached verified feature parity with the web client and shipped on schedule.
+- **Three-day prototype:** Used Claude Code to map company-specific APIs and business rules into a working meeting prototype in three days, work that would have taken weeks by hand, while I built the UI in parallel.
+- **API versioning:** Designed a framework that lets one app build serve customers on different server versions, through version negotiation, capability interfaces and graceful feature degradation. Annotation-driven code generation turned onboarding a new server version into a single annotated class. Write-ups: [API versioning]({% post_url 2026-02-25-api-versioning %}), [@Injectable annotations]({% post_url 2026-02-17-injectable-annotations %}).
+- **iOS depth in Flutter:** Brought iOS expertise into the Flutter codebase, fixed platform-specific issues that cut iOS-only QA reports, and removed every UI creation warning.
+- **Beyond my own tickets:** Drive bug triage and cross-team root-cause analysis and review pull requests. Automated tests and TestFlight and Google Play deployment with Fastlane.
 
 ---
 
 ## Software Engineer
 
-**CHECK24 GmbH** | _Munich, Germany_ | _November 2022 – July 2024_
+**CHECK24** | _Munich, Germany_ | _November 2022 – July 2024_
 
-- **Super App Development:** Developed and maintained the bank account module of CHECK24's large-scale iOS super app, serving a high-traffic user base, using SwiftUI.
-- **UI Test Stability:** Re-implemented the module UI in SwiftUI and refactored legacy UIKit components, improving UI test stability and reducing layout bugs.
-- **Requirement Refinement:** Worked closely with product and backend teams to clarify requirements and edge cases before implementation, which resulted in fewer post-release issues and support tickets.
-- **Architectural Contributions:** Argued the case for SwiftUI in architecture reviews with concrete evidence and an incremental migration plan, shaping the team's reference approach for SwiftUI adoption and code consistency.
+Bank account module in CHECK24's large-scale iOS super app.
+
+- **SwiftUI module:** Built and maintained the module in SwiftUI and refactored legacy UIKit along the way, which stabilized UI tests and reduced layout bugs.
+- **Architecture decision:** Made the case for SwiftUI in architecture reviews with evidence and an incremental migration plan. The module became the team's reference for SwiftUI adoption.
+- **Requirements first:** Clarified requirements and edge cases with product and backend before building, which meant fewer post-release issues and support tickets.
 
 ---
 
@@ -38,41 +38,32 @@ Native client apps (iOS, Android and macOS) for XPhone NextGen, C4B's unified co
 
 **Plus Minus One** | _Istanbul, Turkey_ | _July 2020 – October 2022_
 
-Built multiple B2C iOS apps from initial planning through App Store release in a small product team. Planty was featured by Apple on the App Store.
+A small product team building B2C iOS apps from the first plan to App Store release.
 
-**Math Hero** (27K+ App Store reviews, 4.7 rating, 10M+ problems solved):
-
-- Architected screen recording (ReplayKit), camera recording and a photo/video editing pipeline, plus LaTeX input, OCR text recognition, live chat and an infinite video feed.
-- Set up the base project (networking, push notifications, AWS), built a multi-window manager and secured local data with Keychain, alongside unit tests and code reviews.
-- Kept crash-free session rates above 99.7% and supported predictable bi-weekly releases by prioritizing modular architecture, separation of concerns and performance work early, even under pressure to ship fast.
-
-**EasyFax, Call Recorder and EasyScanner:**
-
-- Redesigned the UI and implemented in-app purchases, push notifications and folder management. Configured CI/CD on Bitrise and added unit test coverage. Migrated the codebase from Objective-C to Swift.
-- Learned Node.js to build a Firebase Functions webhook and a push notification flow that improved user engagement.
-
-**Planty:**
-
-- Implemented a light meter using device sensors, custom adaptive layouts and a custom keyboard extension.
+- **Math AI** (formerly Math Hero; 27K+ App Store reviews, 4.7 rating, 10M+ problems solved): set up the base project and built screen and camera recording with ReplayKit, a photo and video editing pipeline, LaTeX input, OCR and live chat.
+- **Reliability under pressure:** Kept crash-free sessions above 99.7% with bi-weekly releases by investing early in modular architecture and performance, even when the pressure was to ship fast.
+- **EasyFax, Call Recorder, EasyScanner:** Migrated the apps from Objective-C to Swift, redesigned the UI, added in-app purchases and set up CI on Bitrise.
+- **Planty**, featured by Apple on the App Store: built a light meter from device sensors and a custom keyboard extension.
+- **Team:** Mentored junior developers and ran code reviews.
 
 ---
 
 ## Software Engineer
 
-**Pineal Creative Technologies / Live View Sports, Inc.** | _Istanbul, Turkey_ | _October 2019 – July 2020_
+**Pineal Creative Technologies / Live View Sports** | _Istanbul, Turkey_ | _October 2019 – July 2020_
 
-- **Crash Rate Reduction:** Improved production iOS and iPadOS app stability by identifying and fixing crash-prone areas, reducing crash rates to below 0.3%.
-- **Architectural Refactoring:** Refactored selected modules from MVC to VIPER, improving modularity and testability.
-- **Performance Optimization:** Built pause, resume and background downloads plus a video caching mechanism, significantly improving app performance and responsiveness.
-- **Feature Development:** Implemented an animated drag-and-drop gallery and Realm-based local storage.
+LVStudio, an iOS and iPadOS app for learning sports skills from video.
+
+- **Stability:** Brought the crash rate below 0.3% by tracking down and fixing crash-prone areas.
+- **Architecture:** Refactored modules from MVC to VIPER to make them testable.
+- **Video:** Built resumable background downloads and video caching.
 
 ---
 
 ## Independent Products
 
-### Heatiz – Soccer Tracker (iPhone & Apple Watch)
+Apps I design, build and ship on my own. More on the [Projects](/projects/) page.
 
-**Solo Product** | _[heatiz.com](https://heatiz.com)_
-
-- Designed, built and shipped the app on my own with SwiftUI, watchOS, HealthKit and GPS (Core Location), tracking matches, on-field movement and fitness and health data. Available on the [App Store](https://apps.apple.com/app/id6761580343).
-- Owned the complete zero-to-market process: product definition and UX decisions, development, landing page, App Store submission, release and post-launch iteration.
+- **[Heatiz](/heatiz/)**, a soccer tracker for iPhone and Apple Watch. Built with SwiftUI, watchOS, HealthKit, Core Location and CloudKit, from product definition to App Store release and post-launch updates. [Why I built it]({% post_url 2026-10-24-whyIBuiltHeatiz %}).
+- **[Quiz Bürger](/einbuergerungstest/)**, an offline prep app for the German naturalization test. [The story]({% post_url 2026-02-16-releasingQuizBurger %}).
+- **[World Cup Diaries](https://github.com/musakokcen/WWDCWorldCup2026)**, a SwiftUI diary app built with Xcode 27's agentic features that publishes to this blog. [The story]({% post_url 2026-06-20-building-world-cup-diaries-with-xcode-intelligence %}).

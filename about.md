@@ -6,17 +6,17 @@ permalink: /about/
 
 I'm a senior software engineer specialized in Apple platforms, based in Munich. I build products end to end, from idea to market. Over seven years I've shipped native apps in Swift, SwiftUI and Objective-C, real-time meetings over WebRTC, and Android apps with Flutter when the product needed them.
 
-Solving problems, developing solutions, and finally producing something that people use gives me an undefined satisfaction. It also feels like craftsmanship, like bakers bake bread. Therefore, I do my work with passion. 
+What I enjoy most is the whole arc: understanding the problem, making the technical calls, and then watching people use what I built. I treat it as a craft.
 
-Throughout my career across the telephony, sports, education, and productivity domains, my work has centered on taking ownership and driving clean architectural decisions. Whether I am collaborating with cross-functional teams, improving performance, or ensuring a maintainable codebase through testing, my goal is always to deliver measurable quality, an exceptional user experience, and work I'm proud of.
+I've worked across telephony, banking, education, sports and productivity. What carries over is ownership: getting clear on what we're really building, making architecture decisions I can defend, and keeping quality measurable. You can read more on the [Career](/experience/) and [Projects](/projects/) pages.
 
-When it comes to this blog, I have been writing for a long time before, keeping diaries, notes, and writing blogs. With this space, I aim to rebuild my writing habit and provide meaningful writing to readers as well. 
+I've kept diaries and notes for as long as I can remember. Here I write technical posts from my work and side projects, short TILs, and the occasional post about football or cycling.
 
 ---
 
-If you want to say hi or connect, you can find me on [LinkedIn](https://www.linkedin.com/in/musakokcen/) or [send me an email](mailto:{{ site.email }}).
+If you want to say hi or connect, find me on [LinkedIn](https://www.linkedin.com/in/musakokcen/) or [send me an email](mailto:{{ site.email }}).
 
 
 ![image source](/assets/newHorizons.webp)
-<p class="image-caption">There was a summer when I saw a photograph I had taken earlier and strongly associated it with my journey. I considered that moment as “setting sails for new horizons.” Since then, my sails have been on, and I continue to push forward.
+<p class="image-caption">One summer I came across a photo I had taken earlier, and it felt like my own journey: setting sail for new horizons. The sails have been up ever since.
 </p>
