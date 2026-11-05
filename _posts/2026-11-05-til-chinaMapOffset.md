@@ -1,10 +1,10 @@
 ---
 layout: blogpost
 tags: [til]
-title: "Maps in China Don't Use GPS Coordinates"
+title: "GPS Coordinates Don't Line Up with Maps in China"
 subtitle: ""
 ---
-<p>A few days ago I got an email from a <a href="{{ '/heatiz/' | relative_url }}">Heatiz</a> player in China. He wrote that the pitch coordinates were shifted. The heatmap and the pitch outline sat on the map next to the pitch, not on it. I was surprised, because I had tested this part of the app many times. My confusion didn't last long, though, he also told me the cause. China doesn't use the GPS coordinate system I know.</p>
+<p>A few days ago I got an email from a <a href="{{ '/heatiz/' | relative_url }}">Heatiz</a> player in China. He wrote that the pitch coordinates were shifted. The heatmap and the pitch outline sat on the map next to the pitch, not on it. I was surprised, because I had tested this part of the app many times. My confusion didn't last long, though. He also told me the cause. China doesn't use the GPS coordinate system I know.</p>
 
 <p>So I looked into it. GPS, and HealthKit with it, gives coordinates in WGS-84, the standard system used almost everywhere. Chinese law doesn't allow maps in those coordinates. Map data for mainland China has to use GCJ-02, a system that shifts every point by a deliberately irregular offset, roughly 100 to 700 metres depending on where you are.</p>
 
